@@ -1,28 +1,88 @@
-import useTransactions from "../hooks/useTransactions";
+import { Box, Container, Paper, Typography } from "@mui/material";
+
+import DashboardHeader from "../components/dashboard/DashboardHeader";
+import DashboardCards from "../components/dashboard/DashboardCards";
+
+import TransactionTable from "../components/transactions/TransactionTable";
+
+import MonthlyRewardTable from "../components/rewards/MonthlyRewardTable";
+import TotalRewardTable from "../components/rewards/TotalRewardTable";
+
+import Loader from "../components/common/Loader";
+import ErrorMessage from "../components/common/ErrorMessage";
+import EmptyState from "../components/common/EmptyState";
+
+import useRewardDashboard from "../hooks/useRewardDashboard";
 
 const Dashboard = () => {
     const {
-        transactions,
         loading,
         error,
-    } = useTransactions();
+        transactionsWithRewards,
+        monthlyRewards,
+        totalRewards,
+        dashboardStats,
+    } = useRewardDashboard();
 
     if (loading) {
-        return <h2>Loading...</h2>;
+        return <Loader />;
     }
 
     if (error) {
-        return <h2>{error}</h2>;
+        return <ErrorMessage message={error} />;
+    }
+
+    if (!transactionsWithRewards.length) {
+        return (
+            <EmptyState
+                title="No Transactions Found"
+                description="No transactions are available."
+            />
+        );
     }
 
     return (
-        <>
-            <h1>Reward Points Dashboard</h1>
+        <Container maxWidth="xl">
+            <Box py={4}>
+                <DashboardHeader />
 
-            <pre>
-                {JSON.stringify(transactions, null, 2)}
-            </pre>
-        </>
+                <DashboardCards
+                    totalCustomers={dashboardStats.totalCustomers}
+                    totalTransactions={dashboardStats.totalTransactions}
+                    totalRewardPoints={dashboardStats.totalRewardPoints}
+                />
+
+                <Paper elevation={3} sx={{ p: 3, mt: 3 }}>
+                    <Typography variant="h6" gutterBottom>
+                        Transactions
+                    </Typography>
+
+                    <TransactionTable
+                        transactions={transactionsWithRewards}
+                    />
+                </Paper>
+
+                <Paper elevation={3} sx={{ p: 3, mt: 3 }}>
+                    <Typography variant="h6" gutterBottom>
+                        User Monthly Rewards
+                    </Typography>
+
+                    <MonthlyRewardTable
+                        monthlyRewards={monthlyRewards}
+                    />
+                </Paper>
+
+                <Paper elevation={3} sx={{ p: 3, mt: 3 }}>
+                    <Typography variant="h6" gutterBottom>
+                        User Total Rewards
+                    </Typography>
+
+                    <TotalRewardTable
+                        totalRewards={totalRewards}
+                    />
+                </Paper>
+            </Box>
+        </Container>
     );
 };
 
