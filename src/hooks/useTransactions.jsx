@@ -4,7 +4,7 @@ import { getTransactions } from "../api/transactionApi";
 const useTransactions = () => {
     const [transactions, setTransactions] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState("");
 
     const fetchTransactions = useCallback(async () => {
     try {
