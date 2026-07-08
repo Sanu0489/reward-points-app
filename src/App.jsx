@@ -1,9 +1,7 @@
+import Dashboard from "./pages/Dashboard";
+
 function App() {
-    return (
-        <div>
-            <h1>Reward Points Dashboard</h1>
-        </div>
-    );
+    return <Dashboard />;
 }
 
 export default App;
