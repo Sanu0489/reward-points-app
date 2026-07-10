@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { DataGrid } from "@mui/x-data-grid";
 import { Typography } from "@mui/material";
 
+import dayjs from "dayjs";
+
 import { getDataGridStyles } from "../../styles/dataGridStyles";
 
 const tableColumns = [
@@ -22,18 +24,12 @@ const tableColumns = [
     headerAlign: "center",
   },
   {
-    field: "month",
+    field: "monthKey",
     headerName: "Month",
-    width: 120,
+    width: 150,
     align: "center",
     headerAlign: "center",
-  },
-  {
-    field: "year",
-    headerName: "Year",
-    width: 100,
-    align: "center",
-    headerAlign: "center",
+    valueFormatter: (value) => dayjs(value).format("MMM YYYY"),
   },
   {
     field: "rewardPoints",
@@ -54,38 +50,39 @@ const tableColumns = [
 ];
 
 const MonthlyRewardTable = ({ monthlyRewards }) => {
+  console.log(" MonthlyRewardTable monthlyRewards:", monthlyRewards);
   return (
-      <DataGrid
-        rows={monthlyRewards}
-        columns={tableColumns}
-        getRowId={(row) => `${row.customerId}-${row.month}-${row.year}`}
-        pageSizeOptions={[5, 10]}
-        initialState={{
-          pagination: {
-            paginationModel: {
-              pageSize: 5,
-              page: 0,
-            },
+    <DataGrid
+      rows={monthlyRewards}
+      columns={tableColumns}
+      getRowId={(row) => `${row.customerId}-${row.monthKey}`}
+      pageSizeOptions={[5, 10]}
+      initialState={{
+        pagination: {
+          paginationModel: {
+            pageSize: 5,
+            page: 0,
           },
-        }}
-        disableRowSelectionOnClick
-        autoHeight
-        density="comfortable"
-        disableColumnMenu
-        disableColumnResize={false}
-        showToolbar
-        sx={getDataGridStyles("#F4FBF4", "#1B5E20", "#EEF9EE")}
-      />
+        },
+      }}
+      disableRowSelectionOnClick
+      autoHeight
+      density="comfortable"
+      disableColumnMenu
+      disableColumnResize={false}
+      showToolbar
+      sx={getDataGridStyles("#F4FBF4", "#1B5E20", "#EEF9EE")}
+    />
   );
 };
 
 MonthlyRewardTable.propTypes = {
   monthlyRewards: PropTypes.arrayOf(
     PropTypes.shape({
-      customerId: PropTypes.number.isRequired,
+      customerId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+        .isRequired,
       customerName: PropTypes.string.isRequired,
-      month: PropTypes.string.isRequired,
-      year: PropTypes.number.isRequired,
+      monthKey: PropTypes.string.isRequired,
       rewardPoints: PropTypes.number.isRequired,
     }),
   ).isRequired,

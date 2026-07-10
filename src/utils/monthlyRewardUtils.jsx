@@ -1,42 +1,46 @@
+import dayjs from "dayjs";
+
 export const getMonthlyRewardSummary = (transactions) => {
-    const monthlyRewards = transactions.reduce((accumulator, transaction) => {
-        const date = new Date(transaction.purchaseDate);
+    const monthlyRewardMap = new Map();
 
-        const month = date.toLocaleString("default", {
-            month: "short",
-        });
+    transactions.forEach((transaction) => {
+        const monthKey = dayjs(transaction.purchaseDate).format("YYYY-MM");
 
-        const year = date.getFullYear();
+        const key = `${transaction.customerId}-${monthKey}`;
 
-        const monthYear = `${month} ${year}`;
-
-        const key = `${transaction.customerId}-${monthYear}`;
-
-        if (!accumulator[key]) {
-            accumulator[key] = {
+        if (!monthlyRewardMap.has(key)) {
+            monthlyRewardMap.set(key, {
                 customerId: transaction.customerId,
                 customerName: transaction.customerName,
-                month,
-                year,
-                monthYear,
+                monthKey,
                 rewardPoints: 0,
                 totalAmount: 0,
                 totalTransactions: 0,
-            };
+            });
         }
 
-        accumulator[key].rewardPoints += transaction.rewardPoints;
-        accumulator[key].totalAmount += transaction.amount;
-        accumulator[key].totalTransactions += 1;
+        const reward = monthlyRewardMap.get(key);
 
-        return accumulator;
-    }, {});
-
-    return Object.values(monthlyRewards).sort((a, b) => {
-        if (a.customerName !== b.customerName) {
-            return a.customerName.localeCompare(b.customerName);
-        }
-
-        return a.year - b.year || a.month.localeCompare(b.month);
+        reward.rewardPoints += transaction.rewardPoints;
+        reward.totalAmount += transaction.amount;
+        reward.totalTransactions += 1;
     });
+
+    const rewards = [...monthlyRewardMap.values()];
+
+    const latestThreeMonths = [...new Set(rewards.map((reward) => reward.monthKey))]
+        .sort((a, b) => b.localeCompare(a))
+        .slice(0, 3);
+
+    console.log([...monthlyRewardMap.values()]);    
+
+    return rewards
+        .filter((reward) => latestThreeMonths.includes(reward.monthKey))
+        .sort((a, b) => {
+            if (a.customerName !== b.customerName) {
+                return a.customerName.localeCompare(b.customerName);
+            }
+
+            return b.monthKey.localeCompare(a.monthKey);
+        });
 };
