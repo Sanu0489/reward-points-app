@@ -208,7 +208,7 @@ npm run test -- --coverage
 
 ### Test Coverage 
 
-![alt text](image-2.png)
+![alt text](Test-Coverage.png)
 
 ### Dashboard
 
