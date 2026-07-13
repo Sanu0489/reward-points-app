@@ -7,6 +7,21 @@ import {
     Typography,
 } from "@mui/material";
 
+/**
+ * Displays a summary metric inside a reusable dashboard card.
+ *
+ * The card shows a title, value, and an optional icon. It is used
+ * throughout the dashboard to present key statistics such as total
+ * customers, total transactions, and total reward points.
+ *
+ * @param {Object} props - Component props.
+ * @param {string} props.title - Title displayed on the card.
+ * @param {string|number} props.value - Summary value to display.
+ * @param {React.ReactNode} [props.icon] - Optional icon displayed on the right side of the card.
+ * @param {string} [props.borderColor="#1976d2"] - Color applied to the optional icon.
+ * @returns {JSX.Element} Summary card component.
+ */
+
 const SummaryCard = ({
     title,
     value,
@@ -30,9 +45,12 @@ const SummaryCard = ({
         >
             <CardContent>
                 <Box
-                    display="flex"
-                    justifyContent="space-between"
-                    alignItems="center"
+                  sx= {{
+                    display:"flex",
+                    justifyContent:"space-between",
+                    alignItems: "center"
+                  }}
+                    
                 >
                     <Box>
                         <Typography

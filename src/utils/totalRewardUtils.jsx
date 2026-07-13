@@ -1,21 +1,32 @@
+/**
+ * Generates total reward points for each customer.
+ *
+ * @param {Array} transactions - List of transactions.
+ * @returns {Array} Total rewards grouped by customer.
+ */
 export const getTotalRewardSummary = (transactions) => {
-    const totalRewards = transactions.reduce((accumulator, transaction) => {
-        const { customerId, customerName, rewardPoints } = transaction;
+    const rewardMap = new Map();
 
-        if (!accumulator[customerId]) {
-            accumulator[customerId] = {
+    transactions.forEach((transaction) => {
+        const {
+            customerId,
+            firstName,
+            lastName,
+            rewardPoints,
+        } = transaction;
+
+        if (!rewardMap.has(customerId)) {
+            rewardMap.set(customerId, {
                 customerId,
-                customerName,
+                customerName: `${firstName} ${lastName}`,
                 rewardPoints: 0,
-            };
+            });
         }
 
-        accumulator[customerId].rewardPoints += rewardPoints;
+        rewardMap.get(customerId).rewardPoints += rewardPoints;
+    });
 
-        return accumulator;
-    }, {});
-
-    return Object.values(totalRewards).sort(
-        (a, b) => a.customerId - b.customerId
+    return [...rewardMap.values()].sort((a, b) =>
+        a.customerId.localeCompare(b.customerId)
     );
 };

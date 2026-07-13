@@ -1,76 +1,64 @@
 import PropTypes from "prop-types";
 
 import { DataGrid } from "@mui/x-data-grid";
-import { Typography } from "@mui/material";
 
+import { Box } from "@mui/material";
+
+import usePaginationModel from "../../hooks/usePaginationModel";
+
+import { TABLE_HEIGHTS } from "../../constants/tableHeights";
+
+import { totalRewardColumns } from "../../constants/tableColumns/totalRewardColumns";
 import { getDataGridStyles } from "../../styles/dataGridStyles";
 
-const tableColumns = [
-  {
-    field: "customerId",
-    headerName: "Customer ID",
-    width: 140,
-    align: "center",
-    headerAlign: "center",
-  },
-  {
-    field: "customerName",
-    headerName: "Customer Name",
-    flex: 1,
-    minWidth: 220,
-    align: "center",
-    headerAlign: "center",
-  },
-  {
-    field: "rewardPoints",
-    headerName: "Total Reward Points",
-    type: "number",
-    width: 220,
-    align: "center",
-    headerAlign: "center",
-    renderCell: (params) => (
-      <Typography
-        fontWeight="bold"
-        color={
-          params.row.rewardPoints >= 500 ? "secondary.main" : "text.primary"
-        }
-      >
-        {params.row.rewardPoints}
-      </Typography>
-    ),
-  },
-];
+/**
+ * Displays total reward points earned by each customer in a paginated
+ * Material UI DataGrid.
+ *
+ * Supports:
+ * - Client-side pagination
+ * - Automatic page reset when page size changes
+ * - Fixed-height scrollable grid
+ * - Built-in DataGrid toolbar
+ *
+ * @param {Object} props - Component props.
+ * @param {Array<Object>} props.totalRewards - Total reward summary for each customer.
+ * @returns {JSX.Element} Total rewards table.
+ */
 
 const TotalRewardTable = ({ totalRewards }) => {
+  const { paginationModel, handlePaginationModelChange } =
+    usePaginationModel(5);
+
   return (
+    <Box
+      sx={{
+        height: TABLE_HEIGHTS.TOTAL_REWARDS,
+        width: "100%",
+      }}
+    >
       <DataGrid
         rows={totalRewards}
-        columns={tableColumns}
+        columns={totalRewardColumns}
         getRowId={(row) => row.customerId}
-        pageSizeOptions={[5]}
-        initialState={{
-          pagination: {
-            paginationModel: {
-              pageSize: 5,
-              page: 0,
-            },
-          },
-        }}
+        paginationModel={paginationModel}
+        onPaginationModelChange={handlePaginationModelChange}
+        pageSizeOptions={[3, 5, 10]}
         disableRowSelectionOnClick
-        autoHeight
         density="comfortable"
         disableColumnMenu
         disableColumnResize={false}
         showToolbar
         sx={getDataGridStyles("#FBF5FC", "#4A148C", "#FCF7FD")}
       />
+    </Box>
   );
 };
 
 TotalRewardTable.propTypes = {
   totalRewards: PropTypes.arrayOf(
     PropTypes.shape({
-      customerId: PropTypes.number.isRequired,
+      customerId: PropTypes.string.isRequired,
       customerName: PropTypes.string.isRequired,
       rewardPoints: PropTypes.number.isRequired,
     }),

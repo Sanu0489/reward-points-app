@@ -1,0 +1,5 @@
+export const TABLE_HEIGHTS = {
+    TRANSACTIONS: 600,
+    MONTHLY_REWARDS: 500,
+    TOTAL_REWARDS: 450,
+};

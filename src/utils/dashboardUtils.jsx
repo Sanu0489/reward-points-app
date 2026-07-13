@@ -1,3 +1,13 @@
+/**
+ * Calculates summary statistics for the dashboard.
+ *
+ * @param {Array<Object>} transactions - Transactions with reward points.
+ * @returns {{
+ *   totalCustomers: number,
+ *   totalTransactions: number,
+ *   totalRewardPoints: number
+ * }}
+ */
 export const getDashboardStats = (transactions) => {
     return {
         totalCustomers: new Set(

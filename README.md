@@ -1,63 +1,241 @@
 # 🎁 Reward Points Dashboard
 
-A React-based Reward Points Dashboard that calculates customer reward points based on purchase transactions and displays transaction details, monthly reward summaries, total reward summaries, and dashboard statistics.
+A React-based dashboard that calculates and displays customer reward points based on their purchase history. The application aggregates transaction data into monthly and total reward summaries while providing a responsive, user-friendly interface built with Material UI DataGrid.
 
-## Implementation
+---
 
-- Developed using **React 19**, **Vite**, and **Material UI (MUI)** for a modern, responsive user interface.
-- Simulated a backend using **JSON Server** to asynchronously fetch transaction data through a dedicated API layer built with **Axios**.
-- Implemented a reusable **custom hook (`useTransactions`)** to encapsulate API calls, loading state, error handling, and data refetching.
-- Built another custom hook **(`useRewardDashboard`)** to separate business logic from presentation by computing reward points, dashboard statistics, monthly summaries, and total rewards.
-- Created reusable utility functions to calculate reward points, generate monthly and total reward summaries, and compute dashboard metrics.
-- Displayed transaction data using **Material UI DataGrid** with pagination, responsive layouts, custom styling, formatted dates, currency formatting, and reward point highlighting.
-- Designed reusable dashboard components including summary cards, transaction table, monthly rewards table, and total rewards table.
-- Implemented proper UI states including **Loading**, **Error**, and **Empty State** components for improved user experience.
-- Followed a modular folder structure by separating components, hooks, utilities, API services, constants, styles, and tests for better maintainability.
-- Added comprehensive **unit and integration tests** using **Vitest** and **React Testing Library** covering utility functions, API layer, custom hooks, reusable components, and the Dashboard page.
+## Features
 
-## Reward Calculation
+- Calculate reward points for every transaction
+- Dashboard summary cards
+  - Total Customers
+  - Total Transactions
+  - Total Reward Points
+- Transaction history table
+- Monthly reward summary table
+- Total reward summary table
+- Client-side pagination with automatic page reset on page size change
+- Scrollable Material UI DataGrids
+- Tab-based navigation between dashboard tables
+- Lazy loading of dashboard tables using `React.lazy` and `Suspense`
+- Loading, Error and Empty states
+- Retry functionality for failed API requests
+- AbortController support to cancel stale requests
+- Response validation before processing API data
+- Unit tested using Vitest and React Testing Library
 
-- **2 points** are awarded for every dollar spent over **$100**.
-- **1 point** is awarded for every dollar spent between **$50 and $100**.
-- Purchases of **$50 or less** do not earn reward points.
+---
 
-Example:
+## Reward Calculation Rules
 
-```
-Purchase Amount: $120
+Reward points are calculated per transaction using the following rules:
 
-Reward Points:
-50 × 1 = 50
-20 × 2 = 40
+- No points for purchases up to **$50**
+- **1 point** for every dollar spent between **$50 and $100**
+- **2 points** for every dollar spent over **$100**
 
-Total = 90 Points
-```
+### Example
 
-## Tech Stack
+| Purchase Amount | Reward Points |
+|----------------:|--------------:|
+| $40 | 0 |
+| $75 | 25 |
+| $100 | 50 |
+| $120 | 90 |
+| $150 | 150 |
+
+---
+
+## Technology Stack
 
 - React 19
-- JavaScript (ES6+)
-- Vite
 - Material UI
-- Axios
-- JSON Server
+- Material UI DataGrid
+- Day.js
+- React Hooks
+- React Lazy / Suspense
+- Fetch API
+- AbortController
 - Vitest
 - React Testing Library
 
-## Run the Project
+---
+
+## Project Structure
+
+```
+src
+│
+├── api
+│   └── transactionApi.js
+│
+├── components
+│   ├── common
+│   ├── dashboard
+│   ├── rewards
+│   └── transactions
+│
+├── constants
+│
+├── hooks
+│   ├── usePaginationModel.js
+│   ├── useRewardDashboard.js
+│   └── useTransactions.js
+│
+├── pages
+│   └── Dashboard.jsx
+│
+├── styles
+│
+├── tests
+│
+└── utils
+    ├── calculateRewardPoints.js
+    ├── dashboardUtils.js
+    ├── monthlyRewardUtils.js
+    ├── totalRewardUtils.js
+    └── transactionUtils.js
+
+public
+└── db.json
+```
+
+---
+
+## Application Flow
+
+```
+db.json
+      │
+      ▼
+transactionApi.js
+      │
+      ▼
+useTransactions
+      │
+      ▼
+useRewardDashboard
+      │
+      ├──────────────► Dashboard Statistics
+      ├──────────────► Monthly Rewards
+      ├──────────────► Total Rewards
+      └──────────────► Transactions with Rewards
+                    │
+                    ▼
+                Dashboard
+```
+
+---
+
+## Key Design Decisions
+
+- Uses **Fetch API** instead of Axios for a lightweight data layer.
+- Stores mock data in the **public** folder.
+- Uses **AbortController** to prevent stale network updates.
+- Uses **Map** for reward aggregation to improve readability and lookup efficiency.
+- Uses **Day.js** for date handling instead of the legacy `Date` API.
+- Separates table column definitions into reusable constants.
+- Uses custom hooks to separate business logic from presentation.
+- Memoizes expensive calculations using `useMemo`.
+- Reusable pagination logic through a custom `usePaginationModel` hook.
+
+---
+
+## Error Handling
+
+The application handles:
+
+- Invalid purchase amounts
+- Invalid API responses
+- Failed network requests
+- Loading state
+- Empty state
+- Retry support
+- Graceful rendering using React Error Boundary
+
+---
+
+## Performance Optimizations
+
+- React Lazy
+- Suspense
+- Memoized calculations (`useMemo`)
+- Memoized components (`React.memo`)
+- Request cancellation using AbortController
+- Scrollable DataGrid instead of rendering the entire page
+
+---
+
+## Running the Project
+
+Install dependencies
 
 ```bash
 npm install
-npm run start
 ```
 
-This starts:
-
-- JSON Server → http://localhost:3001
-- React App → http://localhost:5173
-
-## Run Tests
+Start the development server
 
 ```bash
-npm run test
+npm run dev
 ```
+
+---
+
+## Running Tests
+
+Run all tests
+
+```bash
+npm test
+```
+
+Run tests in watch mode
+
+```bash
+npm run test:watch
+```
+
+Generate coverage
+
+```bash
+npm run test -- --coverage
+```
+
+---
+
+## Screenshots
+
+### Test Coverage 
+
+![alt text](image-2.png)
+
+### Dashboard
+
+![alt text](image-3.png)
+
+### Transactions
+
+![alt text](image-5.png)
+
+### Monthly Rewards
+
+![alt text](image-6.png)
+
+### Total Rewards
+
+![alt text](image-7.png)
+
+---
+
+## Future Improvements
+
+- Server-side pagination
+- Sorting and filtering through API
+- Export reports to CSV/Excel
+- Authentication
+- Dark mode
+- Internationalization (i18n)
+- Accessibility improvements
+
+

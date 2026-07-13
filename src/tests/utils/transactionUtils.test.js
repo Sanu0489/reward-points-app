@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { mapTransactionsWithRewards } from "../../utils/transactionUtils";
 
@@ -6,27 +6,30 @@ describe("mapTransactionsWithRewards", () => {
     const mockTransactions = [
         {
             id: 1,
-            customerId: 101,
-            customerName: "John Smith",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             amount: 120,
             product: "Laptop",
-            purchaseDate: "2024-01-05",
+            purchaseDate: "2026-06-05",
         },
         {
             id: 2,
-            customerId: 101,
-            customerName: "John Smith",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             amount: 80,
             product: "Keyboard",
-            purchaseDate: "2024-01-10",
+            purchaseDate: "2026-06-10",
         },
         {
             id: 3,
-            customerId: 102,
-            customerName: "Alice Johnson",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
             amount: 40,
             product: "Mouse",
-            purchaseDate: "2024-01-15",
+            purchaseDate: "2026-05-15",
         },
     ];
 
@@ -44,6 +47,14 @@ describe("mapTransactionsWithRewards", () => {
         expect(result[0].rewardPoints).toBe(90);
         expect(result[1].rewardPoints).toBe(30);
         expect(result[2].rewardPoints).toBe(0);
+    });
+
+    it("should create customerName from firstName and lastName", () => {
+        const result = mapTransactionsWithRewards(mockTransactions);
+
+        expect(result[0].customerName).toBe("John Smith");
+        expect(result[1].customerName).toBe("John Smith");
+        expect(result[2].customerName).toBe("Alice Johnson");
     });
 
     it("should return the same number of transactions", () => {
@@ -69,11 +80,13 @@ describe("mapTransactionsWithRewards", () => {
 
         expect(result[0]).toMatchObject({
             id: 1,
-            customerId: 101,
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             customerName: "John Smith",
             amount: 120,
             product: "Laptop",
-            purchaseDate: "2024-01-05",
+            purchaseDate: "2026-06-05",
         });
     });
 

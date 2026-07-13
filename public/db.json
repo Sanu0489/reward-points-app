@@ -1,0 +1,4504 @@
+{
+  "transactions": [
+    {
+      "id": 125,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-01-01",
+      "product": "Docking Station",
+      "amount": 268.32
+    },
+    {
+      "id": 217,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-01-01",
+      "product": "Headset",
+      "amount": 195.2
+    },
+    {
+      "id": 337,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-01-01",
+      "product": "DisplayPort Cable",
+      "amount": 146.56
+    },
+    {
+      "id": 450,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-01",
+      "product": "Webcam",
+      "amount": 216
+    },
+    {
+      "id": 437,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-02",
+      "product": "USB-C Hub",
+      "amount": 256.28
+    },
+    {
+      "id": 485,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-01-02",
+      "product": "Laptop Stand",
+      "amount": 259.71
+    },
+    {
+      "id": 72,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-03",
+      "product": "Laptop Sleeve",
+      "amount": 254.61
+    },
+    {
+      "id": 209,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-01-03",
+      "product": "Docking Station",
+      "amount": 162.67
+    },
+    {
+      "id": 299,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-01-03",
+      "product": "Gaming Mouse",
+      "amount": 77.47
+    },
+    {
+      "id": 322,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-03",
+      "product": "Laptop Sleeve",
+      "amount": 92.46
+    },
+    {
+      "id": 459,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-01-03",
+      "product": "Cooling Pad",
+      "amount": 74.64
+    },
+    {
+      "id": 472,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-03",
+      "product": "Portable SSD",
+      "amount": 282.54
+    },
+    {
+      "id": 135,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-01-04",
+      "product": "Mechanical Keyboard",
+      "amount": 216.84
+    },
+    {
+      "id": 493,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-04",
+      "product": "Monitor Arm",
+      "amount": 119.9
+    },
+    {
+      "id": 372,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-01-05",
+      "product": "Laptop Stand",
+      "amount": 109.58
+    },
+    {
+      "id": 426,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-01-05",
+      "product": "USB-C Hub",
+      "amount": 262.78
+    },
+    {
+      "id": 452,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-01-05",
+      "product": "Portable SSD",
+      "amount": 223.11
+    },
+    {
+      "id": 100,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-01-06",
+      "product": "External SSD",
+      "amount": 107.45
+    },
+    {
+      "id": 114,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-01-07",
+      "product": "DisplayPort Cable",
+      "amount": 20.25
+    },
+    {
+      "id": 238,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-01-07",
+      "product": "Monitor Arm",
+      "amount": 50.83
+    },
+    {
+      "id": 263,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-01-07",
+      "product": "Docking Station",
+      "amount": 272.34
+    },
+    {
+      "id": 380,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-07",
+      "product": "Webcam",
+      "amount": 113.91
+    },
+    {
+      "id": 484,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-01-07",
+      "product": "Laptop Stand",
+      "amount": 76.38
+    },
+    {
+      "id": 143,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-01-09",
+      "product": "Gaming Mouse",
+      "amount": 91.71
+    },
+    {
+      "id": 201,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-09",
+      "product": "Laptop Stand",
+      "amount": 91.9
+    },
+    {
+      "id": 253,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-01-09",
+      "product": "Portable SSD",
+      "amount": 69.46
+    },
+    {
+      "id": 307,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-09",
+      "product": "Mouse Pad",
+      "amount": 34.97
+    },
+    {
+      "id": 316,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-01-09",
+      "product": "Ethernet Adapter",
+      "amount": 164.55
+    },
+    {
+      "id": 365,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-01-09",
+      "product": "Mouse Pad",
+      "amount": 179.44
+    },
+    {
+      "id": 121,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-01-10",
+      "product": "Ethernet Adapter",
+      "amount": 275.23
+    },
+    {
+      "id": 211,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-10",
+      "product": "Gaming Mouse",
+      "amount": 224.16
+    },
+    {
+      "id": 180,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-01-11",
+      "product": "Gaming Keyboard",
+      "amount": 173.65
+    },
+    {
+      "id": 183,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-11",
+      "product": "Gaming Keyboard",
+      "amount": 188.6
+    },
+    {
+      "id": 274,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-01-11",
+      "product": "HDMI Cable",
+      "amount": 177.13
+    },
+    {
+      "id": 345,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-01-11",
+      "product": "HDMI Cable",
+      "amount": 144.31
+    },
+    {
+      "id": 195,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-01-12",
+      "product": "Cooling Pad",
+      "amount": 114.23
+    },
+    {
+      "id": 257,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-12",
+      "product": "Ethernet Adapter",
+      "amount": 194.56
+    },
+    {
+      "id": 187,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-01-13",
+      "product": "DisplayPort Cable",
+      "amount": 288.77
+    },
+    {
+      "id": 318,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-13",
+      "product": "External SSD",
+      "amount": 38.98
+    },
+    {
+      "id": 422,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-01-13",
+      "product": "Laptop Stand",
+      "amount": 201.17
+    },
+    {
+      "id": 198,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-14",
+      "product": "Gaming Keyboard",
+      "amount": 45.8
+    },
+    {
+      "id": 200,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-01-14",
+      "product": "Laptop Sleeve",
+      "amount": 95.51
+    },
+    {
+      "id": 269,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-01-14",
+      "product": "USB-C Hub",
+      "amount": 48.35
+    },
+    {
+      "id": 399,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-14",
+      "product": "Ethernet Adapter",
+      "amount": 92.72
+    },
+    {
+      "id": 194,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-15",
+      "product": "DisplayPort Cable",
+      "amount": 24.46
+    },
+    {
+      "id": 302,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-15",
+      "product": "Laptop Sleeve",
+      "amount": 219.02
+    },
+    {
+      "id": 317,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-15",
+      "product": "External SSD",
+      "amount": 211.34
+    },
+    {
+      "id": 325,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-15",
+      "product": "Mechanical Keyboard",
+      "amount": 92.95
+    },
+    {
+      "id": 189,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-01-16",
+      "product": "Wireless Mouse",
+      "amount": 156.83
+    },
+    {
+      "id": 258,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-01-16",
+      "product": "Laptop Sleeve",
+      "amount": 139.98
+    },
+    {
+      "id": 360,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-17",
+      "product": "External SSD",
+      "amount": 64.1
+    },
+    {
+      "id": 382,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-01-17",
+      "product": "HDMI Cable",
+      "amount": 138.01
+    },
+    {
+      "id": 410,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-01-18",
+      "product": "Headset",
+      "amount": 91.1
+    },
+    {
+      "id": 138,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-01-20",
+      "product": "Monitor Arm",
+      "amount": 38.99
+    },
+    {
+      "id": 494,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-20",
+      "product": "Laptop Sleeve",
+      "amount": 84.88
+    },
+    {
+      "id": 227,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-21",
+      "product": "Portable SSD",
+      "amount": 20.48
+    },
+    {
+      "id": 235,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-01-21",
+      "product": "Gaming Keyboard",
+      "amount": 195.33
+    },
+    {
+      "id": 348,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-01-21",
+      "product": "Mechanical Keyboard",
+      "amount": 178.56
+    },
+    {
+      "id": 497,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-01-21",
+      "product": "Docking Station",
+      "amount": 111.79
+    },
+    {
+      "id": 89,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-22",
+      "product": "Headset",
+      "amount": 201.28
+    },
+    {
+      "id": 310,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-01-22",
+      "product": "Portable SSD",
+      "amount": 32.24
+    },
+    {
+      "id": 110,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-01-23",
+      "product": "Docking Station",
+      "amount": 36.76
+    },
+    {
+      "id": 224,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-23",
+      "product": "Monitor Arm",
+      "amount": 29.29
+    },
+    {
+      "id": 290,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-01-23",
+      "product": "Ethernet Adapter",
+      "amount": 113.05
+    },
+    {
+      "id": 362,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-23",
+      "product": "Bluetooth Keyboard",
+      "amount": 57.45
+    },
+    {
+      "id": 192,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-24",
+      "product": "HDMI Cable",
+      "amount": 209.67
+    },
+    {
+      "id": 267,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-01-24",
+      "product": "Webcam",
+      "amount": 276.52
+    },
+    {
+      "id": 289,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-01-24",
+      "product": "Docking Station",
+      "amount": 40.03
+    },
+    {
+      "id": 352,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-01-24",
+      "product": "Laptop Stand",
+      "amount": 118.14
+    },
+    {
+      "id": 420,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-01-24",
+      "product": "Wireless Mouse",
+      "amount": 77.81
+    },
+    {
+      "id": 446,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-01-24",
+      "product": "Laptop Sleeve",
+      "amount": 26.85
+    },
+    {
+      "id": 142,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-01-25",
+      "product": "Ethernet Adapter",
+      "amount": 39.86
+    },
+    {
+      "id": 276,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-01-25",
+      "product": "Portable SSD",
+      "amount": 24.67
+    },
+    {
+      "id": 97,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-01-26",
+      "product": "USB-C Hub",
+      "amount": 66.68
+    },
+    {
+      "id": 126,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-01-26",
+      "product": "Monitor Arm",
+      "amount": 275.54
+    },
+    {
+      "id": 252,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-01-26",
+      "product": "Wireless Mouse",
+      "amount": 60.26
+    },
+    {
+      "id": 496,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-26",
+      "product": "Headset",
+      "amount": 82.65
+    },
+    {
+      "id": 102,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-01-27",
+      "product": "Laptop Stand",
+      "amount": 41.88
+    },
+    {
+      "id": 92,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-01-28",
+      "product": "Gaming Mouse",
+      "amount": 56.94
+    },
+    {
+      "id": 427,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-01-28",
+      "product": "Wireless Mouse",
+      "amount": 260.31
+    },
+    {
+      "id": 480,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-01",
+      "product": "Docking Station",
+      "amount": 87.91
+    },
+    {
+      "id": 333,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-02-02",
+      "product": "Webcam",
+      "amount": 71.25
+    },
+    {
+      "id": 407,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-02-02",
+      "product": "Cooling Pad",
+      "amount": 196.33
+    },
+    {
+      "id": 470,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-02",
+      "product": "Cooling Pad",
+      "amount": 30.31
+    },
+    {
+      "id": 129,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-02-03",
+      "product": "Bluetooth Keyboard",
+      "amount": 140.08
+    },
+    {
+      "id": 440,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-03",
+      "product": "Laptop Sleeve",
+      "amount": 232.17
+    },
+    {
+      "id": 66,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-04",
+      "product": "USB Flash Drive",
+      "amount": 47.09
+    },
+    {
+      "id": 144,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-02-04",
+      "product": "Docking Station",
+      "amount": 166.23
+    },
+    {
+      "id": 242,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-02-04",
+      "product": "USB-C Hub",
+      "amount": 134.27
+    },
+    {
+      "id": 271,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-04",
+      "product": "Laptop Sleeve",
+      "amount": 213.37
+    },
+    {
+      "id": 344,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-02-04",
+      "product": "Headset",
+      "amount": 89.34
+    },
+    {
+      "id": 425,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-02-04",
+      "product": "DisplayPort Cable",
+      "amount": 21.99
+    },
+    {
+      "id": 288,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-02-05",
+      "product": "HDMI Cable",
+      "amount": 53.03
+    },
+    {
+      "id": 309,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-02-05",
+      "product": "Portable SSD",
+      "amount": 244.43
+    },
+    {
+      "id": 469,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-02-05",
+      "product": "Mechanical Keyboard",
+      "amount": 42.68
+    },
+    {
+      "id": 283,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-02-06",
+      "product": "Webcam",
+      "amount": 66.48
+    },
+    {
+      "id": 350,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-02-06",
+      "product": "Portable SSD",
+      "amount": 64.57
+    },
+    {
+      "id": 406,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-02-06",
+      "product": "Wireless Mouse",
+      "amount": 39.8
+    },
+    {
+      "id": 270,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-07",
+      "product": "Portable SSD",
+      "amount": 67.31
+    },
+    {
+      "id": 336,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-07",
+      "product": "Wireless Mouse",
+      "amount": 296.66
+    },
+    {
+      "id": 212,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-08",
+      "product": "Headset",
+      "amount": 272.23
+    },
+    {
+      "id": 421,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-02-08",
+      "product": "HDMI Cable",
+      "amount": 86.9
+    },
+    {
+      "id": 486,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-02-08",
+      "product": "Webcam",
+      "amount": 102.61
+    },
+    {
+      "id": 397,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-09",
+      "product": "Laptop Sleeve",
+      "amount": 140.55
+    },
+    {
+      "id": 117,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-02-10",
+      "product": "Ethernet Adapter",
+      "amount": 204.4
+    },
+    {
+      "id": 132,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-10",
+      "product": "DisplayPort Cable",
+      "amount": 293.79
+    },
+    {
+      "id": 261,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-02-10",
+      "product": "Gaming Keyboard",
+      "amount": 33.3
+    },
+    {
+      "id": 293,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-10",
+      "product": "Gaming Mouse",
+      "amount": 265.6
+    },
+    {
+      "id": 87,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-11",
+      "product": "Gaming Keyboard",
+      "amount": 51.82
+    },
+    {
+      "id": 176,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-02-11",
+      "product": "Monitor Arm",
+      "amount": 39.87
+    },
+    {
+      "id": 314,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-02-11",
+      "product": "Portable SSD",
+      "amount": 206.11
+    },
+    {
+      "id": 385,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-02-11",
+      "product": "Ethernet Adapter",
+      "amount": 48.4
+    },
+    {
+      "id": 109,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-02-12",
+      "product": "Gaming Keyboard",
+      "amount": 120.97
+    },
+    {
+      "id": 124,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-02-12",
+      "product": "Monitor Arm",
+      "amount": 54.91
+    },
+    {
+      "id": 395,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-12",
+      "product": "Ethernet Adapter",
+      "amount": 224.08
+    },
+    {
+      "id": 458,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-12",
+      "product": "External SSD",
+      "amount": 76.03
+    },
+    {
+      "id": 272,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-13",
+      "product": "Mouse Pad",
+      "amount": 256
+    },
+    {
+      "id": 313,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-02-13",
+      "product": "Headset",
+      "amount": 290.9
+    },
+    {
+      "id": 332,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-14",
+      "product": "Ethernet Adapter",
+      "amount": 55.76
+    },
+    {
+      "id": 379,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-14",
+      "product": "Portable SSD",
+      "amount": 69.16
+    },
+    {
+      "id": 467,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-02-14",
+      "product": "DisplayPort Cable",
+      "amount": 124.62
+    },
+    {
+      "id": 155,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-02-15",
+      "product": "Docking Station",
+      "amount": 179.42
+    },
+    {
+      "id": 383,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-15",
+      "product": "Mouse Pad",
+      "amount": 248.31
+    },
+    {
+      "id": 329,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-02-16",
+      "product": "Webcam",
+      "amount": 212.16
+    },
+    {
+      "id": 225,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-18",
+      "product": "Gaming Mouse",
+      "amount": 85.54
+    },
+    {
+      "id": 297,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-02-19",
+      "product": "Laptop Sleeve",
+      "amount": 165.45
+    },
+    {
+      "id": 358,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-19",
+      "product": "Docking Station",
+      "amount": 165.16
+    },
+    {
+      "id": 498,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-02-19",
+      "product": "External SSD",
+      "amount": 299.5
+    },
+    {
+      "id": 255,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-20",
+      "product": "Mouse Pad",
+      "amount": 220.28
+    },
+    {
+      "id": 306,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-02-20",
+      "product": "Ethernet Adapter",
+      "amount": 273.07
+    },
+    {
+      "id": 339,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-20",
+      "product": "USB Flash Drive",
+      "amount": 44.34
+    },
+    {
+      "id": 370,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-02-20",
+      "product": "Gaming Keyboard",
+      "amount": 76.97
+    },
+    {
+      "id": 389,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-02-20",
+      "product": "HDMI Cable",
+      "amount": 66.41
+    },
+    {
+      "id": 69,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-21",
+      "product": "Webcam",
+      "amount": 241.13
+    },
+    {
+      "id": 162,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-02-21",
+      "product": "USB Flash Drive",
+      "amount": 28.3
+    },
+    {
+      "id": 489,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-21",
+      "product": "Laptop Sleeve",
+      "amount": 293.77
+    },
+    {
+      "id": 118,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-02-22",
+      "product": "DisplayPort Cable",
+      "amount": 73.05
+    },
+    {
+      "id": 455,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-02-22",
+      "product": "Mouse Pad",
+      "amount": 299.58
+    },
+    {
+      "id": 483,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-02-22",
+      "product": "Laptop Sleeve",
+      "amount": 94.55
+    },
+    {
+      "id": 169,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-02-23",
+      "product": "DisplayPort Cable",
+      "amount": 31.6
+    },
+    {
+      "id": 278,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-23",
+      "product": "Gaming Keyboard",
+      "amount": 217.36
+    },
+    {
+      "id": 387,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-23",
+      "product": "Laptop Sleeve",
+      "amount": 58.12
+    },
+    {
+      "id": 391,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-23",
+      "product": "Docking Station",
+      "amount": 82.35
+    },
+    {
+      "id": 466,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-02-23",
+      "product": "Webcam",
+      "amount": 232.88
+    },
+    {
+      "id": 139,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-02-26",
+      "product": "DisplayPort Cable",
+      "amount": 45.32
+    },
+    {
+      "id": 259,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-02-26",
+      "product": "Bluetooth Keyboard",
+      "amount": 267.89
+    },
+    {
+      "id": 262,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-02-26",
+      "product": "Portable SSD",
+      "amount": 26.55
+    },
+    {
+      "id": 282,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-02-26",
+      "product": "Cooling Pad",
+      "amount": 241.26
+    },
+    {
+      "id": 308,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-02-26",
+      "product": "Mouse Pad",
+      "amount": 59.79
+    },
+    {
+      "id": 393,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-02-26",
+      "product": "Gaming Mouse",
+      "amount": 84.56
+    },
+    {
+      "id": 441,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-02-26",
+      "product": "Laptop Sleeve",
+      "amount": 255.54
+    },
+    {
+      "id": 78,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-02-27",
+      "product": "USB-C Hub",
+      "amount": 88.11
+    },
+    {
+      "id": 131,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-02-27",
+      "product": "External SSD",
+      "amount": 184.25
+    },
+    {
+      "id": 208,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-02-27",
+      "product": "Mechanical Keyboard",
+      "amount": 241.4
+    },
+    {
+      "id": 462,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-02-27",
+      "product": "Docking Station",
+      "amount": 78.8
+    },
+    {
+      "id": 70,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-02-28",
+      "product": "Wireless Mouse",
+      "amount": 281.43
+    },
+    {
+      "id": 203,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-02-28",
+      "product": "Docking Station",
+      "amount": 22.41
+    },
+    {
+      "id": 159,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-03-01",
+      "product": "External SSD",
+      "amount": 150.06
+    },
+    {
+      "id": 73,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-03-02",
+      "product": "External SSD",
+      "amount": 207.96
+    },
+    {
+      "id": 222,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-03-02",
+      "product": "Laptop Stand",
+      "amount": 39.71
+    },
+    {
+      "id": 356,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-03-02",
+      "product": "Webcam",
+      "amount": 186.99
+    },
+    {
+      "id": 127,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-03",
+      "product": "Webcam",
+      "amount": 47.08
+    },
+    {
+      "id": 165,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-03-03",
+      "product": "Headset",
+      "amount": 291.93
+    },
+    {
+      "id": 236,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-03-03",
+      "product": "Mouse Pad",
+      "amount": 219.94
+    },
+    {
+      "id": 465,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-03-03",
+      "product": "Gaming Keyboard",
+      "amount": 280.57
+    },
+    {
+      "id": 65,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-03-04",
+      "product": "Mouse Pad",
+      "amount": 68.21
+    },
+    {
+      "id": 300,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-03-04",
+      "product": "Laptop Stand",
+      "amount": 80.36
+    },
+    {
+      "id": 85,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-06",
+      "product": "Wireless Mouse",
+      "amount": 43.89
+    },
+    {
+      "id": 123,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-06",
+      "product": "Mouse Pad",
+      "amount": 180.86
+    },
+    {
+      "id": 326,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-06",
+      "product": "Laptop Sleeve",
+      "amount": 173.21
+    },
+    {
+      "id": 93,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-07",
+      "product": "Ethernet Adapter",
+      "amount": 53.38
+    },
+    {
+      "id": 161,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-03-07",
+      "product": "Cooling Pad",
+      "amount": 71.62
+    },
+    {
+      "id": 191,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-07",
+      "product": "Bluetooth Keyboard",
+      "amount": 78.6
+    },
+    {
+      "id": 347,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-03-07",
+      "product": "Cooling Pad",
+      "amount": 266.48
+    },
+    {
+      "id": 376,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-07",
+      "product": "Wireless Mouse",
+      "amount": 66.33
+    },
+    {
+      "id": 154,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-08",
+      "product": "Portable SSD",
+      "amount": 30.6
+    },
+    {
+      "id": 178,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-03-08",
+      "product": "Cooling Pad",
+      "amount": 43.75
+    },
+    {
+      "id": 490,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-03-08",
+      "product": "Bluetooth Keyboard",
+      "amount": 93.16
+    },
+    {
+      "id": 156,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-03-09",
+      "product": "Headset",
+      "amount": 148.52
+    },
+    {
+      "id": 184,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-03-09",
+      "product": "Bluetooth Keyboard",
+      "amount": 173.74
+    },
+    {
+      "id": 431,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-03-09",
+      "product": "Headset",
+      "amount": 248.11
+    },
+    {
+      "id": 254,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-03-10",
+      "product": "USB Flash Drive",
+      "amount": 21.31
+    },
+    {
+      "id": 331,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-03-10",
+      "product": "HDMI Cable",
+      "amount": 47.57
+    },
+    {
+      "id": 409,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-10",
+      "product": "Webcam",
+      "amount": 61.63
+    },
+    {
+      "id": 457,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-03-11",
+      "product": "Mouse Pad",
+      "amount": 224.24
+    },
+    {
+      "id": 120,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-03-12",
+      "product": "External SSD",
+      "amount": 81.12
+    },
+    {
+      "id": 413,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-03-12",
+      "product": "Mechanical Keyboard",
+      "amount": 32.95
+    },
+    {
+      "id": 453,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-03-12",
+      "product": "Mouse Pad",
+      "amount": 173.54
+    },
+    {
+      "id": 487,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-03-12",
+      "product": "Gaming Mouse",
+      "amount": 40.65
+    },
+    {
+      "id": 173,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-03-13",
+      "product": "Wireless Mouse",
+      "amount": 258.42
+    },
+    {
+      "id": 213,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-03-14",
+      "product": "Portable SSD",
+      "amount": 158.62
+    },
+    {
+      "id": 232,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-14",
+      "product": "Bluetooth Keyboard",
+      "amount": 223.64
+    },
+    {
+      "id": 149,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-03-15",
+      "product": "DisplayPort Cable",
+      "amount": 20.21
+    },
+    {
+      "id": 285,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-03-15",
+      "product": "Bluetooth Keyboard",
+      "amount": 262.8
+    },
+    {
+      "id": 386,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-03-15",
+      "product": "Mouse Pad",
+      "amount": 218.18
+    },
+    {
+      "id": 444,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-03-15",
+      "product": "USB-C Hub",
+      "amount": 243.4
+    },
+    {
+      "id": 108,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-03-16",
+      "product": "Portable SSD",
+      "amount": 32.47
+    },
+    {
+      "id": 231,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-16",
+      "product": "Laptop Stand",
+      "amount": 239.19
+    },
+    {
+      "id": 305,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-03-16",
+      "product": "Wireless Mouse",
+      "amount": 74.78
+    },
+    {
+      "id": 279,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-03-17",
+      "product": "Webcam",
+      "amount": 34.89
+    },
+    {
+      "id": 401,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-03-17",
+      "product": "Webcam",
+      "amount": 31.62
+    },
+    {
+      "id": 443,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-03-17",
+      "product": "Laptop Sleeve",
+      "amount": 88.19
+    },
+    {
+      "id": 463,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-18",
+      "product": "Docking Station",
+      "amount": 35.61
+    },
+    {
+      "id": 404,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-20",
+      "product": "DisplayPort Cable",
+      "amount": 80.94
+    },
+    {
+      "id": 435,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-03-20",
+      "product": "Laptop Stand",
+      "amount": 161.64
+    },
+    {
+      "id": 83,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-03-21",
+      "product": "Portable SSD",
+      "amount": 64.7
+    },
+    {
+      "id": 204,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-21",
+      "product": "Gaming Mouse",
+      "amount": 194.97
+    },
+    {
+      "id": 361,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-03-21",
+      "product": "Monitor Arm",
+      "amount": 299.25
+    },
+    {
+      "id": 363,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-03-21",
+      "product": "Portable SSD",
+      "amount": 41.5
+    },
+    {
+      "id": 433,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-03-22",
+      "product": "USB-C Hub",
+      "amount": 224.29
+    },
+    {
+      "id": 74,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-03-23",
+      "product": "Wireless Mouse",
+      "amount": 266.73
+    },
+    {
+      "id": 216,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-23",
+      "product": "Wireless Mouse",
+      "amount": 271.76
+    },
+    {
+      "id": 400,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-23",
+      "product": "USB Flash Drive",
+      "amount": 103.07
+    },
+    {
+      "id": 61,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-03-24",
+      "product": "HDMI Cable",
+      "amount": 33.5
+    },
+    {
+      "id": 80,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-03-24",
+      "product": "USB-C Hub",
+      "amount": 34.03
+    },
+    {
+      "id": 185,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-03-24",
+      "product": "Ethernet Adapter",
+      "amount": 187.78
+    },
+    {
+      "id": 119,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-03-25",
+      "product": "HDMI Cable",
+      "amount": 28.83
+    },
+    {
+      "id": 174,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-03-25",
+      "product": "Portable SSD",
+      "amount": 63.83
+    },
+    {
+      "id": 181,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-03-25",
+      "product": "DisplayPort Cable",
+      "amount": 48.22
+    },
+    {
+      "id": 210,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-25",
+      "product": "External SSD",
+      "amount": 213.02
+    },
+    {
+      "id": 116,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-03-26",
+      "product": "DisplayPort Cable",
+      "amount": 84.39
+    },
+    {
+      "id": 260,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-03-26",
+      "product": "Portable SSD",
+      "amount": 82.81
+    },
+    {
+      "id": 328,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-26",
+      "product": "HDMI Cable",
+      "amount": 185.77
+    },
+    {
+      "id": 408,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-26",
+      "product": "Mechanical Keyboard",
+      "amount": 102.48
+    },
+    {
+      "id": 476,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-03-26",
+      "product": "Ethernet Adapter",
+      "amount": 159.73
+    },
+    {
+      "id": 349,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-27",
+      "product": "Webcam",
+      "amount": 158.04
+    },
+    {
+      "id": 111,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-28",
+      "product": "Bluetooth Keyboard",
+      "amount": 115.85
+    },
+    {
+      "id": 241,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-03-28",
+      "product": "Ethernet Adapter",
+      "amount": 240.52
+    },
+    {
+      "id": 291,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-03-28",
+      "product": "Wireless Mouse",
+      "amount": 64.64
+    },
+    {
+      "id": 468,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-03-28",
+      "product": "Bluetooth Keyboard",
+      "amount": 101.37
+    },
+    {
+      "id": 128,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-04-01",
+      "product": "Docking Station",
+      "amount": 76.86
+    },
+    {
+      "id": 281,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-04-01",
+      "product": "Mechanical Keyboard",
+      "amount": 85.31
+    },
+    {
+      "id": 63,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-04-02",
+      "product": "Monitor Arm",
+      "amount": 153.41
+    },
+    {
+      "id": 88,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-02",
+      "product": "Ethernet Adapter",
+      "amount": 265.01
+    },
+    {
+      "id": 99,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-04-02",
+      "product": "Laptop Stand",
+      "amount": 171.27
+    },
+    {
+      "id": 186,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-02",
+      "product": "Gaming Keyboard",
+      "amount": 45.44
+    },
+    {
+      "id": 321,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-04-02",
+      "product": "HDMI Cable",
+      "amount": 84.58
+    },
+    {
+      "id": 388,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-04-02",
+      "product": "HDMI Cable",
+      "amount": 167.83
+    },
+    {
+      "id": 482,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-02",
+      "product": "Gaming Keyboard",
+      "amount": 163.23
+    },
+    {
+      "id": 34,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-04-03",
+      "product": "Docking Station",
+      "amount": 204.03
+    },
+    {
+      "id": 264,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-04-03",
+      "product": "Ethernet Adapter",
+      "amount": 132.38
+    },
+    {
+      "id": 287,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-04-03",
+      "product": "Wireless Mouse",
+      "amount": 169.3
+    },
+    {
+      "id": 206,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-04",
+      "product": "Gaming Mouse",
+      "amount": 140.28
+    },
+    {
+      "id": 381,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-04-04",
+      "product": "Gaming Keyboard",
+      "amount": 30.9
+    },
+    {
+      "id": 398,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-04-04",
+      "product": "Gaming Mouse",
+      "amount": 53.46
+    },
+    {
+      "id": 412,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-04",
+      "product": "Bluetooth Keyboard",
+      "amount": 57.76
+    },
+    {
+      "id": 492,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-04-04",
+      "product": "Gaming Mouse",
+      "amount": 149.15
+    },
+    {
+      "id": 343,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-04-05",
+      "product": "Ethernet Adapter",
+      "amount": 259.4
+    },
+    {
+      "id": 456,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-05",
+      "product": "Laptop Sleeve",
+      "amount": 35.3
+    },
+    {
+      "id": 488,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-04-05",
+      "product": "USB-C Hub",
+      "amount": 261.35
+    },
+    {
+      "id": 62,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-06",
+      "product": "Headset",
+      "amount": 128.17
+    },
+    {
+      "id": 266,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-06",
+      "product": "Webcam",
+      "amount": 144.63
+    },
+    {
+      "id": 268,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-04-07",
+      "product": "USB Flash Drive",
+      "amount": 285.04
+    },
+    {
+      "id": 377,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-08",
+      "product": "USB-C Hub",
+      "amount": 266.23
+    },
+    {
+      "id": 28,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-04-09",
+      "product": "USB-C Hub",
+      "amount": 88.88
+    },
+    {
+      "id": 58,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-04-09",
+      "product": "Ethernet Adapter",
+      "amount": 68.98
+    },
+    {
+      "id": 64,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-09",
+      "product": "Portable SSD",
+      "amount": 178.85
+    },
+    {
+      "id": 150,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-04-09",
+      "product": "Bluetooth Keyboard",
+      "amount": 21.34
+    },
+    {
+      "id": 500,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-09",
+      "product": "DisplayPort Cable",
+      "amount": 148.87
+    },
+    {
+      "id": 22,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-10",
+      "product": "USB-C Hub",
+      "amount": 264.62
+    },
+    {
+      "id": 171,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-10",
+      "product": "Headset",
+      "amount": 170.39
+    },
+    {
+      "id": 449,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-10",
+      "product": "USB Flash Drive",
+      "amount": 174.23
+    },
+    {
+      "id": 19,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-04-11",
+      "product": "Gaming Keyboard",
+      "amount": 271.88
+    },
+    {
+      "id": 103,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-11",
+      "product": "USB Flash Drive",
+      "amount": 231.77
+    },
+    {
+      "id": 113,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-04-11",
+      "product": "Webcam",
+      "amount": 70.27
+    },
+    {
+      "id": 141,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-04-11",
+      "product": "Wireless Mouse",
+      "amount": 205.17
+    },
+    {
+      "id": 199,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-11",
+      "product": "USB-C Hub",
+      "amount": 41.06
+    },
+    {
+      "id": 228,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-04-11",
+      "product": "Gaming Keyboard",
+      "amount": 141.85
+    },
+    {
+      "id": 319,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-11",
+      "product": "Ethernet Adapter",
+      "amount": 100.58
+    },
+    {
+      "id": 461,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-04-12",
+      "product": "Mouse Pad",
+      "amount": 83.25
+    },
+    {
+      "id": 474,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-04-12",
+      "product": "Portable SSD",
+      "amount": 83.57
+    },
+    {
+      "id": 160,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-04-13",
+      "product": "Laptop Stand",
+      "amount": 219.22
+    },
+    {
+      "id": 249,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-13",
+      "product": "Bluetooth Keyboard",
+      "amount": 153.6
+    },
+    {
+      "id": 327,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-13",
+      "product": "Mechanical Keyboard",
+      "amount": 48.01
+    },
+    {
+      "id": 40,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-04-14",
+      "product": "Docking Station",
+      "amount": 36.04
+    },
+    {
+      "id": 49,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-14",
+      "product": "External SSD",
+      "amount": 185.71
+    },
+    {
+      "id": 140,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-04-14",
+      "product": "USB-C Hub",
+      "amount": 135.06
+    },
+    {
+      "id": 163,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-14",
+      "product": "DisplayPort Cable",
+      "amount": 79.76
+    },
+    {
+      "id": 193,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-14",
+      "product": "Monitor Arm",
+      "amount": 50.53
+    },
+    {
+      "id": 10,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-04-15",
+      "product": "Laptop Stand",
+      "amount": 29.8
+    },
+    {
+      "id": 55,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-04-15",
+      "product": "USB-C Hub",
+      "amount": 164.9
+    },
+    {
+      "id": 82,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-16",
+      "product": "Webcam",
+      "amount": 186.08
+    },
+    {
+      "id": 133,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-16",
+      "product": "Docking Station",
+      "amount": 48.21
+    },
+    {
+      "id": 418,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-04-16",
+      "product": "USB Flash Drive",
+      "amount": 55.66
+    },
+    {
+      "id": 13,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-17",
+      "product": "Portable SSD",
+      "amount": 83.77
+    },
+    {
+      "id": 52,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-17",
+      "product": "Gaming Mouse",
+      "amount": 91.23
+    },
+    {
+      "id": 112,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-04-17",
+      "product": "Mechanical Keyboard",
+      "amount": 48.19
+    },
+    {
+      "id": 251,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-04-17",
+      "product": "Monitor Arm",
+      "amount": 144.63
+    },
+    {
+      "id": 355,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-17",
+      "product": "USB-C Hub",
+      "amount": 127.39
+    },
+    {
+      "id": 4,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-04-18",
+      "product": "DisplayPort Cable",
+      "amount": 56.78
+    },
+    {
+      "id": 31,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-04-18",
+      "product": "Headset",
+      "amount": 222.53
+    },
+    {
+      "id": 214,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-04-18",
+      "product": "Gaming Keyboard",
+      "amount": 53.88
+    },
+    {
+      "id": 1,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-19",
+      "product": "Gaming Mouse",
+      "amount": 121.39
+    },
+    {
+      "id": 7,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-19",
+      "product": "Mechanical Keyboard",
+      "amount": 194.14
+    },
+    {
+      "id": 354,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-19",
+      "product": "Laptop Sleeve",
+      "amount": 287.05
+    },
+    {
+      "id": 16,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-04-20",
+      "product": "Webcam",
+      "amount": 182.28
+    },
+    {
+      "id": 226,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-20",
+      "product": "Bluetooth Keyboard",
+      "amount": 231.26
+    },
+    {
+      "id": 351,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-04-20",
+      "product": "Wireless Mouse",
+      "amount": 54.9
+    },
+    {
+      "id": 37,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-04-21",
+      "product": "Wireless Mouse",
+      "amount": 142.36
+    },
+    {
+      "id": 151,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-21",
+      "product": "Cooling Pad",
+      "amount": 75.27
+    },
+    {
+      "id": 301,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-04-21",
+      "product": "HDMI Cable",
+      "amount": 32.89
+    },
+    {
+      "id": 90,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-04-22",
+      "product": "Laptop Stand",
+      "amount": 96.95
+    },
+    {
+      "id": 330,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-04-22",
+      "product": "Monitor Arm",
+      "amount": 204.25
+    },
+    {
+      "id": 495,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-04-22",
+      "product": "Wireless Mouse",
+      "amount": 181.43
+    },
+    {
+      "id": 43,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-04-23",
+      "product": "External SSD",
+      "amount": 207.55
+    },
+    {
+      "id": 84,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-23",
+      "product": "Webcam",
+      "amount": 97.81
+    },
+    {
+      "id": 334,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-04-23",
+      "product": "Mechanical Keyboard",
+      "amount": 228.5
+    },
+    {
+      "id": 364,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-23",
+      "product": "Laptop Stand",
+      "amount": 34.86
+    },
+    {
+      "id": 75,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-04-24",
+      "product": "HDMI Cable",
+      "amount": 27.29
+    },
+    {
+      "id": 405,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-04-24",
+      "product": "Gaming Keyboard",
+      "amount": 115.71
+    },
+    {
+      "id": 417,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-04-24",
+      "product": "Mechanical Keyboard",
+      "amount": 48.71
+    },
+    {
+      "id": 76,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-04-25",
+      "product": "USB-C Hub",
+      "amount": 148.16
+    },
+    {
+      "id": 280,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-04-25",
+      "product": "Ethernet Adapter",
+      "amount": 105.55
+    },
+    {
+      "id": 359,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-04-25",
+      "product": "Laptop Stand",
+      "amount": 141.1
+    },
+    {
+      "id": 419,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-04-26",
+      "product": "Monitor Arm",
+      "amount": 224.24
+    },
+    {
+      "id": 478,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-04-26",
+      "product": "Cooling Pad",
+      "amount": 88.51
+    },
+    {
+      "id": 25,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-04-27",
+      "product": "Cooling Pad",
+      "amount": 285.07
+    },
+    {
+      "id": 71,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-04-27",
+      "product": "Cooling Pad",
+      "amount": 180.71
+    },
+    {
+      "id": 190,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-04-27",
+      "product": "USB Flash Drive",
+      "amount": 55.6
+    },
+    {
+      "id": 46,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-04-28",
+      "product": "Wireless Mouse",
+      "amount": 63.88
+    },
+    {
+      "id": 277,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-04-28",
+      "product": "Wireless Mouse",
+      "amount": 23.16
+    },
+    {
+      "id": 2,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-05-01",
+      "product": "Headset",
+      "amount": 252.49
+    },
+    {
+      "id": 32,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-05-01",
+      "product": "USB-C Hub",
+      "amount": 171.06
+    },
+    {
+      "id": 11,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-02",
+      "product": "DisplayPort Cable",
+      "amount": 250.24
+    },
+    {
+      "id": 215,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-05-02",
+      "product": "Mechanical Keyboard",
+      "amount": 98.9
+    },
+    {
+      "id": 245,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-02",
+      "product": "Bluetooth Keyboard",
+      "amount": 22.87
+    },
+    {
+      "id": 481,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-05-02",
+      "product": "DisplayPort Cable",
+      "amount": 96.32
+    },
+    {
+      "id": 248,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-03",
+      "product": "Portable SSD",
+      "amount": 62.29
+    },
+    {
+      "id": 430,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-05-03",
+      "product": "Monitor Arm",
+      "amount": 29.88
+    },
+    {
+      "id": 475,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-03",
+      "product": "Gaming Keyboard",
+      "amount": 266.12
+    },
+    {
+      "id": 96,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-05-04",
+      "product": "Ethernet Adapter",
+      "amount": 182.37
+    },
+    {
+      "id": 229,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-04",
+      "product": "Ethernet Adapter",
+      "amount": 33.44
+    },
+    {
+      "id": 35,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-05",
+      "product": "Cooling Pad",
+      "amount": 278.73
+    },
+    {
+      "id": 101,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-05-05",
+      "product": "Docking Station",
+      "amount": 285.37
+    },
+    {
+      "id": 375,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-05-05",
+      "product": "HDMI Cable",
+      "amount": 30.45
+    },
+    {
+      "id": 91,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-05-06",
+      "product": "Laptop Stand",
+      "amount": 48
+    },
+    {
+      "id": 342,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-05-06",
+      "product": "Webcam",
+      "amount": 87.84
+    },
+    {
+      "id": 384,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-05-06",
+      "product": "USB-C Hub",
+      "amount": 217.45
+    },
+    {
+      "id": 454,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-06",
+      "product": "Ethernet Adapter",
+      "amount": 230.24
+    },
+    {
+      "id": 26,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-05-07",
+      "product": "Laptop Stand",
+      "amount": 88.26
+    },
+    {
+      "id": 220,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-05-07",
+      "product": "USB-C Hub",
+      "amount": 88.49
+    },
+    {
+      "id": 50,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-05-08",
+      "product": "Mechanical Keyboard",
+      "amount": 36.1
+    },
+    {
+      "id": 273,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-05-08",
+      "product": "Docking Station",
+      "amount": 65.04
+    },
+    {
+      "id": 294,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-05-08",
+      "product": "External SSD",
+      "amount": 248.11
+    },
+    {
+      "id": 296,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-05-08",
+      "product": "Laptop Sleeve",
+      "amount": 82.23
+    },
+    {
+      "id": 448,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-05-08",
+      "product": "Laptop Sleeve",
+      "amount": 249.13
+    },
+    {
+      "id": 23,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-05-09",
+      "product": "USB Flash Drive",
+      "amount": 265.09
+    },
+    {
+      "id": 130,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-05-09",
+      "product": "Monitor Arm",
+      "amount": 62.58
+    },
+    {
+      "id": 158,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-09",
+      "product": "Mouse Pad",
+      "amount": 69.29
+    },
+    {
+      "id": 335,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-05-09",
+      "product": "DisplayPort Cable",
+      "amount": 195.98
+    },
+    {
+      "id": 371,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-09",
+      "product": "Mouse Pad",
+      "amount": 240.07
+    },
+    {
+      "id": 447,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-09",
+      "product": "Monitor Arm",
+      "amount": 299.54
+    },
+    {
+      "id": 368,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-10",
+      "product": "Headset",
+      "amount": 89.42
+    },
+    {
+      "id": 53,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-05-11",
+      "product": "Laptop Stand",
+      "amount": 80.71
+    },
+    {
+      "id": 152,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-11",
+      "product": "Wireless Mouse",
+      "amount": 178.19
+    },
+    {
+      "id": 157,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-11",
+      "product": "Laptop Stand",
+      "amount": 226.33
+    },
+    {
+      "id": 250,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-05-11",
+      "product": "Gaming Keyboard",
+      "amount": 93.51
+    },
+    {
+      "id": 303,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-05-11",
+      "product": "Monitor Arm",
+      "amount": 66.54
+    },
+    {
+      "id": 367,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-11",
+      "product": "Mouse Pad",
+      "amount": 223.84
+    },
+    {
+      "id": 145,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-12",
+      "product": "Gaming Keyboard",
+      "amount": 81.36
+    },
+    {
+      "id": 147,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-05-12",
+      "product": "Headset",
+      "amount": 92.62
+    },
+    {
+      "id": 286,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-05-12",
+      "product": "Gaming Mouse",
+      "amount": 24.95
+    },
+    {
+      "id": 378,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-12",
+      "product": "External SSD",
+      "amount": 195.7
+    },
+    {
+      "id": 424,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-12",
+      "product": "Headset",
+      "amount": 55.48
+    },
+    {
+      "id": 17,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-05-13",
+      "product": "Docking Station",
+      "amount": 37.73
+    },
+    {
+      "id": 20,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-05-13",
+      "product": "Ethernet Adapter",
+      "amount": 75.29
+    },
+    {
+      "id": 304,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-05-13",
+      "product": "Mechanical Keyboard",
+      "amount": 61.39
+    },
+    {
+      "id": 59,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-14",
+      "product": "Mechanical Keyboard",
+      "amount": 267.52
+    },
+    {
+      "id": 175,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-05-14",
+      "product": "HDMI Cable",
+      "amount": 290.85
+    },
+    {
+      "id": 464,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-05-15",
+      "product": "Headset",
+      "amount": 52.23
+    },
+    {
+      "id": 14,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-05-17",
+      "product": "USB Flash Drive",
+      "amount": 226.79
+    },
+    {
+      "id": 98,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-05-18",
+      "product": "Monitor Arm",
+      "amount": 51
+    },
+    {
+      "id": 179,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-05-18",
+      "product": "Docking Station",
+      "amount": 43.6
+    },
+    {
+      "id": 188,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-18",
+      "product": "Ethernet Adapter",
+      "amount": 106.52
+    },
+    {
+      "id": 396,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-05-18",
+      "product": "Docking Station",
+      "amount": 132.34
+    },
+    {
+      "id": 86,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-19",
+      "product": "HDMI Cable",
+      "amount": 68.45
+    },
+    {
+      "id": 134,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-19",
+      "product": "Gaming Mouse",
+      "amount": 26.8
+    },
+    {
+      "id": 153,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-19",
+      "product": "Webcam",
+      "amount": 97.45
+    },
+    {
+      "id": 5,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-05-20",
+      "product": "Bluetooth Keyboard",
+      "amount": 174.11
+    },
+    {
+      "id": 38,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-20",
+      "product": "Headset",
+      "amount": 120.59
+    },
+    {
+      "id": 164,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-05-20",
+      "product": "Laptop Sleeve",
+      "amount": 25.77
+    },
+    {
+      "id": 8,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-05-21",
+      "product": "Cooling Pad",
+      "amount": 45.92
+    },
+    {
+      "id": 77,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-05-21",
+      "product": "Headset",
+      "amount": 199.55
+    },
+    {
+      "id": 104,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-21",
+      "product": "Monitor Arm",
+      "amount": 94.11
+    },
+    {
+      "id": 353,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-05-21",
+      "product": "Headset",
+      "amount": 299.41
+    },
+    {
+      "id": 442,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-21",
+      "product": "Portable SSD",
+      "amount": 161.32
+    },
+    {
+      "id": 41,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-05-22",
+      "product": "HDMI Cable",
+      "amount": 157.8
+    },
+    {
+      "id": 357,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-05-22",
+      "product": "Webcam",
+      "amount": 93.05
+    },
+    {
+      "id": 390,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-22",
+      "product": "Monitor Arm",
+      "amount": 161.57
+    },
+    {
+      "id": 202,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-23",
+      "product": "Bluetooth Keyboard",
+      "amount": 39.44
+    },
+    {
+      "id": 207,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-05-23",
+      "product": "Portable SSD",
+      "amount": 176.39
+    },
+    {
+      "id": 223,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-05-23",
+      "product": "External SSD",
+      "amount": 221.38
+    },
+    {
+      "id": 341,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-05-23",
+      "product": "Mechanical Keyboard",
+      "amount": 183.81
+    },
+    {
+      "id": 29,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-05-24",
+      "product": "Gaming Mouse",
+      "amount": 113.13
+    },
+    {
+      "id": 44,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-05-24",
+      "product": "Gaming Mouse",
+      "amount": 97.45
+    },
+    {
+      "id": 170,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-05-25",
+      "product": "Docking Station",
+      "amount": 93.81
+    },
+    {
+      "id": 234,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-05-25",
+      "product": "Ethernet Adapter",
+      "amount": 54.15
+    },
+    {
+      "id": 477,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-25",
+      "product": "Ethernet Adapter",
+      "amount": 161.57
+    },
+    {
+      "id": 369,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-05-26",
+      "product": "Mouse Pad",
+      "amount": 48.01
+    },
+    {
+      "id": 122,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-05-27",
+      "product": "Webcam",
+      "amount": 61.54
+    },
+    {
+      "id": 47,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-05-28",
+      "product": "USB Flash Drive",
+      "amount": 180.09
+    },
+    {
+      "id": 56,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-05-28",
+      "product": "Headset",
+      "amount": 283.66
+    },
+    {
+      "id": 218,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-05-28",
+      "product": "Laptop Stand",
+      "amount": 88.39
+    },
+    {
+      "id": 219,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-05-28",
+      "product": "Cooling Pad",
+      "amount": 24.07
+    },
+    {
+      "id": 265,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-05-28",
+      "product": "Gaming Mouse",
+      "amount": 160.68
+    },
+    {
+      "id": 428,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-05-28",
+      "product": "USB Flash Drive",
+      "amount": 89.55
+    },
+    {
+      "id": 473,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-06-01",
+      "product": "DisplayPort Cable",
+      "amount": 47
+    },
+    {
+      "id": 45,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-06-02",
+      "product": "External SSD",
+      "amount": 83.15
+    },
+    {
+      "id": 54,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-06-02",
+      "product": "Gaming Keyboard",
+      "amount": 90.75
+    },
+    {
+      "id": 105,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-02",
+      "product": "Gaming Keyboard",
+      "amount": 52.28
+    },
+    {
+      "id": 115,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-06-02",
+      "product": "Laptop Sleeve",
+      "amount": 160.18
+    },
+    {
+      "id": 311,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-02",
+      "product": "DisplayPort Cable",
+      "amount": 25.6
+    },
+    {
+      "id": 451,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-02",
+      "product": "Gaming Mouse",
+      "amount": 207.47
+    },
+    {
+      "id": 460,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-06-02",
+      "product": "USB-C Hub",
+      "amount": 91.64
+    },
+    {
+      "id": 18,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-06-03",
+      "product": "HDMI Cable",
+      "amount": 52.34
+    },
+    {
+      "id": 374,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-06-03",
+      "product": "Cooling Pad",
+      "amount": 74.12
+    },
+    {
+      "id": 205,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-04",
+      "product": "USB Flash Drive",
+      "amount": 150.54
+    },
+    {
+      "id": 284,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-06-04",
+      "product": "Portable SSD",
+      "amount": 52.21
+    },
+    {
+      "id": 411,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-04",
+      "product": "Portable SSD",
+      "amount": 259.03
+    },
+    {
+      "id": 479,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-04",
+      "product": "HDMI Cable",
+      "amount": 38.18
+    },
+    {
+      "id": 177,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-06-05",
+      "product": "Laptop Stand",
+      "amount": 251.29
+    },
+    {
+      "id": 81,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-06-06",
+      "product": "Bluetooth Keyboard",
+      "amount": 89.43
+    },
+    {
+      "id": 94,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-06",
+      "product": "Portable SSD",
+      "amount": 199
+    },
+    {
+      "id": 292,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-06-06",
+      "product": "Monitor Arm",
+      "amount": 171.13
+    },
+    {
+      "id": 346,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-06",
+      "product": "Bluetooth Keyboard",
+      "amount": 122.17
+    },
+    {
+      "id": 39,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-07",
+      "product": "Gaming Mouse",
+      "amount": 257.14
+    },
+    {
+      "id": 166,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-06-07",
+      "product": "Headset",
+      "amount": 218.83
+    },
+    {
+      "id": 168,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-07",
+      "product": "Wireless Mouse",
+      "amount": 121.25
+    },
+    {
+      "id": 196,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-07",
+      "product": "Wireless Mouse",
+      "amount": 90.38
+    },
+    {
+      "id": 3,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-08",
+      "product": "USB-C Hub",
+      "amount": 25.8
+    },
+    {
+      "id": 48,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-06-08",
+      "product": "Mechanical Keyboard",
+      "amount": 160.67
+    },
+    {
+      "id": 275,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-08",
+      "product": "Gaming Keyboard",
+      "amount": 34.63
+    },
+    {
+      "id": 445,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-08",
+      "product": "Headset",
+      "amount": 117
+    },
+    {
+      "id": 68,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-09",
+      "product": "Bluetooth Keyboard",
+      "amount": 286
+    },
+    {
+      "id": 106,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-09",
+      "product": "DisplayPort Cable",
+      "amount": 32.21
+    },
+    {
+      "id": 256,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-09",
+      "product": "Headset",
+      "amount": 22.09
+    },
+    {
+      "id": 315,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-06-09",
+      "product": "Laptop Sleeve",
+      "amount": 81.08
+    },
+    {
+      "id": 366,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-09",
+      "product": "HDMI Cable",
+      "amount": 97.06
+    },
+    {
+      "id": 373,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-06-09",
+      "product": "Docking Station",
+      "amount": 283.41
+    },
+    {
+      "id": 416,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-06-09",
+      "product": "Headset",
+      "amount": 67.58
+    },
+    {
+      "id": 340,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-10",
+      "product": "Webcam",
+      "amount": 254.75
+    },
+    {
+      "id": 436,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-06-10",
+      "product": "Bluetooth Keyboard",
+      "amount": 30.86
+    },
+    {
+      "id": 24,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-06-11",
+      "product": "DisplayPort Cable",
+      "amount": 96.83
+    },
+    {
+      "id": 182,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-06-11",
+      "product": "DisplayPort Cable",
+      "amount": 206.15
+    },
+    {
+      "id": 324,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-11",
+      "product": "Laptop Stand",
+      "amount": 50.1
+    },
+    {
+      "id": 438,
+      "customerId": "C016",
+      "firstName": "Mia",
+      "lastName": "Robinson",
+      "purchaseDate": "2026-06-11",
+      "product": "Laptop Stand",
+      "amount": 103.53
+    },
+    {
+      "id": 471,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-06-11",
+      "product": "External SSD",
+      "amount": 270.4
+    },
+    {
+      "id": 60,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-06-12",
+      "product": "Mechanical Keyboard",
+      "amount": 80.52
+    },
+    {
+      "id": 67,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-06-12",
+      "product": "HDMI Cable",
+      "amount": 46.52
+    },
+    {
+      "id": 197,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-12",
+      "product": "Bluetooth Keyboard",
+      "amount": 168.22
+    },
+    {
+      "id": 136,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-13",
+      "product": "Headset",
+      "amount": 43.98
+    },
+    {
+      "id": 6,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-06-14",
+      "product": "Mechanical Keyboard",
+      "amount": 287.67
+    },
+    {
+      "id": 33,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-14",
+      "product": "Ethernet Adapter",
+      "amount": 55.54
+    },
+    {
+      "id": 233,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-06-14",
+      "product": "Webcam",
+      "amount": 88.56
+    },
+    {
+      "id": 414,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-06-15",
+      "product": "Portable SSD",
+      "amount": 45.47
+    },
+    {
+      "id": 148,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-16",
+      "product": "HDMI Cable",
+      "amount": 91.17
+    },
+    {
+      "id": 137,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-17",
+      "product": "Laptop Stand",
+      "amount": 90.39
+    },
+    {
+      "id": 221,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-17",
+      "product": "DisplayPort Cable",
+      "amount": 176.5
+    },
+    {
+      "id": 439,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-06-17",
+      "product": "HDMI Cable",
+      "amount": 68.58
+    },
+    {
+      "id": 95,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-18",
+      "product": "Laptop Stand",
+      "amount": 91.71
+    },
+    {
+      "id": 172,
+      "customerId": "C006",
+      "firstName": "Sophia",
+      "lastName": "Taylor",
+      "purchaseDate": "2026-06-18",
+      "product": "Mouse Pad",
+      "amount": 75.59
+    },
+    {
+      "id": 415,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-18",
+      "product": "Laptop Stand",
+      "amount": 138.25
+    },
+    {
+      "id": 12,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-06-19",
+      "product": "Monitor Arm",
+      "amount": 32.46
+    },
+    {
+      "id": 230,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-19",
+      "product": "Bluetooth Keyboard",
+      "amount": 86.18
+    },
+    {
+      "id": 244,
+      "customerId": "C002",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "purchaseDate": "2026-06-19",
+      "product": "Portable SSD",
+      "amount": 270.63
+    },
+    {
+      "id": 246,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-06-19",
+      "product": "Headset",
+      "amount": 57.59
+    },
+    {
+      "id": 392,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-19",
+      "product": "HDMI Cable",
+      "amount": 154.38
+    },
+    {
+      "id": 57,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-06-20",
+      "product": "HDMI Cable",
+      "amount": 32.26
+    },
+    {
+      "id": 237,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-20",
+      "product": "Wireless Mouse",
+      "amount": 42.66
+    },
+    {
+      "id": 394,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-06-20",
+      "product": "Monitor Arm",
+      "amount": 184.99
+    },
+    {
+      "id": 491,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-20",
+      "product": "Webcam",
+      "amount": 113.38
+    },
+    {
+      "id": 15,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-06-21",
+      "product": "Portable SSD",
+      "amount": 62.99
+    },
+    {
+      "id": 42,
+      "customerId": "C014",
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "purchaseDate": "2026-06-21",
+      "product": "Portable SSD",
+      "amount": 97.94
+    },
+    {
+      "id": 51,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-06-21",
+      "product": "USB-C Hub",
+      "amount": 96.26
+    },
+    {
+      "id": 79,
+      "customerId": "C017",
+      "firstName": "Henry",
+      "lastName": "Clark",
+      "purchaseDate": "2026-06-21",
+      "product": "Docking Station",
+      "amount": 234.97
+    },
+    {
+      "id": 423,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-21",
+      "product": "Wireless Mouse",
+      "amount": 176.23
+    },
+    {
+      "id": 434,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-21",
+      "product": "Laptop Sleeve",
+      "amount": 261.2
+    },
+    {
+      "id": 146,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-06-22",
+      "product": "Webcam",
+      "amount": 47.19
+    },
+    {
+      "id": 167,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-06-23",
+      "product": "Docking Station",
+      "amount": 212.4
+    },
+    {
+      "id": 298,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-23",
+      "product": "Docking Station",
+      "amount": 207.85
+    },
+    {
+      "id": 312,
+      "customerId": "C011",
+      "firstName": "William",
+      "lastName": "Harris",
+      "purchaseDate": "2026-06-23",
+      "product": "Laptop Sleeve",
+      "amount": 61.52
+    },
+    {
+      "id": 320,
+      "customerId": "C013",
+      "firstName": "Benjamin",
+      "lastName": "Thompson",
+      "purchaseDate": "2026-06-23",
+      "product": "External SSD",
+      "amount": 193.18
+    },
+    {
+      "id": 402,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-06-23",
+      "product": "Laptop Stand",
+      "amount": 68.42
+    },
+    {
+      "id": 9,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-25",
+      "product": "Monitor Arm",
+      "amount": 66.42
+    },
+    {
+      "id": 36,
+      "customerId": "C012",
+      "firstName": "Charlotte",
+      "lastName": "Martin",
+      "purchaseDate": "2026-06-25",
+      "product": "Gaming Mouse",
+      "amount": 215.88
+    },
+    {
+      "id": 107,
+      "customerId": "C020",
+      "firstName": "Evelyn",
+      "lastName": "Hall",
+      "purchaseDate": "2026-06-25",
+      "product": "Mechanical Keyboard",
+      "amount": 241.52
+    },
+    {
+      "id": 247,
+      "customerId": "C001",
+      "firstName": "John",
+      "lastName": "Smith",
+      "purchaseDate": "2026-06-25",
+      "product": "USB Flash Drive",
+      "amount": 161.01
+    },
+    {
+      "id": 338,
+      "customerId": "C019",
+      "firstName": "Alexander",
+      "lastName": "Walker",
+      "purchaseDate": "2026-06-25",
+      "product": "DisplayPort Cable",
+      "amount": 124.99
+    },
+    {
+      "id": 429,
+      "customerId": "C018",
+      "firstName": "Harper",
+      "lastName": "Lewis",
+      "purchaseDate": "2026-06-25",
+      "product": "Cooling Pad",
+      "amount": 50.72
+    },
+    {
+      "id": 240,
+      "customerId": "C015",
+      "firstName": "Lucas",
+      "lastName": "Martinez",
+      "purchaseDate": "2026-06-26",
+      "product": "Docking Station",
+      "amount": 103.06
+    },
+    {
+      "id": 499,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-26",
+      "product": "DisplayPort Cable",
+      "amount": 203.4
+    },
+    {
+      "id": 21,
+      "customerId": "C007",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "purchaseDate": "2026-06-27",
+      "product": "Wireless Mouse",
+      "amount": 174.58
+    },
+    {
+      "id": 27,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-27",
+      "product": "Webcam",
+      "amount": 58.02
+    },
+    {
+      "id": 243,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-06-27",
+      "product": "Laptop Stand",
+      "amount": 75.02
+    },
+    {
+      "id": 323,
+      "customerId": "C008",
+      "firstName": "Olivia",
+      "lastName": "Thomas",
+      "purchaseDate": "2026-06-27",
+      "product": "Cooling Pad",
+      "amount": 85.9
+    },
+    {
+      "id": 432,
+      "customerId": "C005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "purchaseDate": "2026-06-27",
+      "product": "Webcam",
+      "amount": 230.64
+    },
+    {
+      "id": 30,
+      "customerId": "C010",
+      "firstName": "Emma",
+      "lastName": "White",
+      "purchaseDate": "2026-06-28",
+      "product": "Gaming Mouse",
+      "amount": 207.36
+    },
+    {
+      "id": 239,
+      "customerId": "C003",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "purchaseDate": "2026-06-28",
+      "product": "Docking Station",
+      "amount": 139.84
+    },
+    {
+      "id": 295,
+      "customerId": "C009",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "purchaseDate": "2026-06-28",
+      "product": "Laptop Sleeve",
+      "amount": 261.95
+    },
+    {
+      "id": 403,
+      "customerId": "C004",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "purchaseDate": "2026-06-28",
+      "product": "Mechanical Keyboard",
+      "amount": 229.08
+    }
+  ]
+}

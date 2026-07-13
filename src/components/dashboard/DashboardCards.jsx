@@ -1,9 +1,24 @@
 import PropTypes from "prop-types";
+import { memo } from "react";
 
 import { Grid } from "@mui/material";
 
 import SummaryCard from "./SummaryCard";
 
+/**
+ * Displays summary cards for the Reward Points Dashboard.
+ *
+ * Renders the key dashboard metrics:
+ * - Total customers
+ * - Total transactions
+ * - Total reward points
+ *
+ * @param {Object} props - Component props.
+ * @param {number} props.totalCustomers - Total number of unique customers.
+ * @param {number} props.totalTransactions - Total number of transactions.
+ * @param {number} props.totalRewardPoints - Total reward points earned.
+ * @returns {JSX.Element} Dashboard summary cards.
+ */
 const DashboardCards = ({
     totalCustomers,
     totalTransactions,
@@ -41,4 +56,4 @@ DashboardCards.propTypes = {
     totalRewardPoints: PropTypes.number.isRequired,
 };
 
-export default DashboardCards;
+export default memo(DashboardCards);

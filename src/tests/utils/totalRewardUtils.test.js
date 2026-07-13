@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { getTotalRewardSummary } from "../../utils/totalRewardUtils";
 
@@ -6,32 +6,37 @@ describe("getTotalRewardSummary", () => {
     const mockTransactions = [
         {
             id: 1,
-            customerId: 101,
-            customerName: "John Smith",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             rewardPoints: 90,
         },
         {
             id: 2,
-            customerId: 101,
-            customerName: "John Smith",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             rewardPoints: 30,
         },
         {
             id: 3,
-            customerId: 102,
-            customerName: "Alice Johnson",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
             rewardPoints: 150,
         },
         {
             id: 4,
-            customerId: 102,
-            customerName: "Alice Johnson",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
             rewardPoints: 225,
         },
         {
             id: 5,
-            customerId: 103,
-            customerName: "Michael Brown",
+            customerId: "C003",
+            firstName: "Michael",
+            lastName: "Brown",
             rewardPoints: 50,
         },
     ];
@@ -50,7 +55,7 @@ describe("getTotalRewardSummary", () => {
         const result = getTotalRewardSummary(mockTransactions);
 
         const john = result.find(
-            (customer) => customer.customerId === 101
+            (customer) => customer.customerId === "C001"
         );
 
         expect(john.rewardPoints).toBe(120);
@@ -60,7 +65,7 @@ describe("getTotalRewardSummary", () => {
         const result = getTotalRewardSummary(mockTransactions);
 
         const alice = result.find(
-            (customer) => customer.customerId === 102
+            (customer) => customer.customerId === "C002"
         );
 
         expect(alice.rewardPoints).toBe(375);
@@ -70,7 +75,7 @@ describe("getTotalRewardSummary", () => {
         const result = getTotalRewardSummary(mockTransactions);
 
         expect(result[0]).toMatchObject({
-            customerId: expect.any(Number),
+            customerId: expect.any(String),
             customerName: expect.any(String),
             rewardPoints: expect.any(Number),
         });
@@ -79,9 +84,9 @@ describe("getTotalRewardSummary", () => {
     it("should sort customers by customerId", () => {
         const result = getTotalRewardSummary(mockTransactions);
 
-        expect(result[0].customerId).toBe(101);
-        expect(result[1].customerId).toBe(102);
-        expect(result[2].customerId).toBe(103);
+        expect(result[0].customerId).toBe("C001");
+        expect(result[1].customerId).toBe("C002");
+        expect(result[2].customerId).toBe("C003");
     });
 
     it("should return a new array", () => {
@@ -91,7 +96,7 @@ describe("getTotalRewardSummary", () => {
     });
 
     it("should not mutate the original transactions array", () => {
-        const original = JSON.parse(JSON.stringify(mockTransactions));
+        const original = structuredClone(mockTransactions);
 
         getTotalRewardSummary(mockTransactions);
 

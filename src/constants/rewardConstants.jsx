@@ -1,2 +1,2 @@
-export const REWARD_LIMIT_1 = 50;
-export const REWARD_LIMIT_2 = 100;
+export const REWARD_LOWER_THRESHOLD = 50;
+export const REWARD_UPPER_THRESHOLD = 100;

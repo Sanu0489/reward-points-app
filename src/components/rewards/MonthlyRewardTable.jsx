@@ -1,86 +1,63 @@
 import PropTypes from "prop-types";
-
 import { DataGrid } from "@mui/x-data-grid";
-import { Typography } from "@mui/material";
 
-import dayjs from "dayjs";
+import { Box } from "@mui/material";
 
+import usePaginationModel from "../../hooks/usePaginationModel";
+
+import { TABLE_HEIGHTS } from "../../constants/tableHeights";
+
+import { monthlyRewardColumns } from "../../constants/tableColumns/monthlyRewardColumns";
 import { getDataGridStyles } from "../../styles/dataGridStyles";
 
-const tableColumns = [
-  {
-    field: "customerId",
-    headerName: "Customer ID",
-    width: 130,
-    align: "center",
-    headerAlign: "center",
-  },
-  {
-    field: "customerName",
-    headerName: "Customer Name",
-    flex: 1,
-    minWidth: 220,
-    align: "center",
-    headerAlign: "center",
-  },
-  {
-    field: "monthKey",
-    headerName: "Month",
-    width: 150,
-    align: "center",
-    headerAlign: "center",
-    valueFormatter: (value) => dayjs(value).format("MMM YYYY"),
-  },
-  {
-    field: "rewardPoints",
-    headerName: "Reward Points",
-    type: "number",
-    width: 170,
-    align: "center",
-    headerAlign: "center",
-    renderCell: (params) => (
-      <Typography
-        fontWeight="bold"
-        color={params.row.rewardPoints >= 100 ? "success.main" : "text.primary"}
-      >
-        {params.row.rewardPoints}
-      </Typography>
-    ),
-  },
-];
+/**
+ * Displays monthly reward summaries for each customer in a paginated
+ * Material UI DataGrid.
+ *
+ * Supports:
+ * - Client-side pagination
+ * - Automatic page reset when page size changes
+ * - Fixed-height scrollable grid
+ * - Built-in DataGrid toolbar
+ *
+ * @param {Object} props - Component props.
+ * @param {Array<Object>} props.monthlyRewards - Monthly reward summary data.
+ * @returns {JSX.Element} Monthly rewards table.
+ */
 
 const MonthlyRewardTable = ({ monthlyRewards }) => {
-  console.log(" MonthlyRewardTable monthlyRewards:", monthlyRewards);
+  const { paginationModel, handlePaginationModelChange } =
+    usePaginationModel(5);
+
   return (
-    <DataGrid
-      rows={monthlyRewards}
-      columns={tableColumns}
-      getRowId={(row) => `${row.customerId}-${row.monthKey}`}
-      pageSizeOptions={[5, 10]}
-      initialState={{
-        pagination: {
-          paginationModel: {
-            pageSize: 5,
-            page: 0,
-          },
-        },
+    <Box
+      sx={{
+        height: TABLE_HEIGHTS.MONTHLY_REWARDS,
+        width: "100%",
       }}
-      disableRowSelectionOnClick
-      autoHeight
-      density="comfortable"
-      disableColumnMenu
-      disableColumnResize={false}
-      showToolbar
-      sx={getDataGridStyles("#F4FBF4", "#1B5E20", "#EEF9EE")}
-    />
+    >
+      <DataGrid
+        rows={monthlyRewards}
+        columns={monthlyRewardColumns}
+        getRowId={(row) => `${row.customerId}-${row.monthKey}`}
+        paginationModel={paginationModel}
+        onPaginationModelChange={handlePaginationModelChange}
+        pageSizeOptions={[5, 10]}
+        disableRowSelectionOnClick
+        density="comfortable"
+        disableColumnMenu
+        disableColumnResize={false}
+        showToolbar
+        sx={getDataGridStyles("#F4FBF4", "#1B5E20", "#EEF9EE")}
+      />
+    </Box>
   );
 };
 
 MonthlyRewardTable.propTypes = {
   monthlyRewards: PropTypes.arrayOf(
     PropTypes.shape({
-      customerId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-        .isRequired,
+      customerId: PropTypes.string.isRequired,
       customerName: PropTypes.string.isRequired,
       monthKey: PropTypes.string.isRequired,
       rewardPoints: PropTypes.number.isRequired,

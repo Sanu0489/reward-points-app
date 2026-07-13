@@ -14,10 +14,10 @@ describe("Dashboard", () => {
     const mockTransactions = [
         {
             id: 1,
-            customerId: 101,
+            customerId: "C001",
             customerName: "John Smith",
             product: "Laptop",
-            purchaseDate: "2024-01-05",
+            purchaseDate: "2026-06-05",
             amount: 120,
             rewardPoints: 90,
         },
@@ -25,17 +25,17 @@ describe("Dashboard", () => {
 
     const mockMonthlyRewards = [
         {
-            customerId: 101,
+            customerId: "C001",
             customerName: "John Smith",
-            month: "Jan",
-            year: 2024,
+            monthKey: "2026-06",
+            monthLabel: "Jun 2026",
             rewardPoints: 90,
         },
     ];
 
     const mockTotalRewards = [
         {
-            customerId: 101,
+            customerId: "C001",
             customerName: "John Smith",
             rewardPoints: 90,
         },
@@ -47,10 +47,13 @@ describe("Dashboard", () => {
         totalRewardPoints: 90,
     };
 
+    const mockRefetch = vi.fn();
+
     it("should render loader while loading", () => {
         useRewardDashboard.mockReturnValue({
             loading: true,
-            error: "",
+            error: null,
+            refetch: mockRefetch,
             transactionsWithRewards: [],
             monthlyRewards: [],
             totalRewards: [],
@@ -67,7 +70,8 @@ describe("Dashboard", () => {
     it("should render error message", () => {
         useRewardDashboard.mockReturnValue({
             loading: false,
-            error: "Network Error",
+            error: new Error("Network Error"),
+            refetch: mockRefetch,
             transactionsWithRewards: [],
             monthlyRewards: [],
             totalRewards: [],
@@ -88,7 +92,8 @@ describe("Dashboard", () => {
     it("should render empty state", () => {
         useRewardDashboard.mockReturnValue({
             loading: false,
-            error: "",
+            error: null,
+            refetch: mockRefetch,
             transactionsWithRewards: [],
             monthlyRewards: [],
             totalRewards: [],
@@ -109,7 +114,8 @@ describe("Dashboard", () => {
     it("should render dashboard successfully", () => {
         useRewardDashboard.mockReturnValue({
             loading: false,
-            error: "",
+            error: null,
+            refetch: mockRefetch,
             transactionsWithRewards: mockTransactions,
             monthlyRewards: mockMonthlyRewards,
             totalRewards: mockTotalRewards,
@@ -118,7 +124,7 @@ describe("Dashboard", () => {
 
         render(<Dashboard />);
 
-        // Header
+        // Dashboard Header
         expect(
             screen.getByRole("heading", {
                 name: /reward points dashboard/i,
@@ -134,31 +140,27 @@ describe("Dashboard", () => {
             screen.getByText("Total Transactions")
         ).toBeInTheDocument();
 
-        // Appears twice (Summary Card + Table Header)
         expect(
-            screen.getAllByText("Total Reward Points").length
-        ).toBeGreaterThan(0);
+            screen.getByText("Total Reward Points")
+        ).toBeInTheDocument();
 
-        // Section Titles
+        // Tabs
         expect(
-            screen.getByText("Transactions")
+            screen.getByRole("tab", {
+                name: "Transactions",
+            })
         ).toBeInTheDocument();
 
         expect(
-            screen.getByText("User Monthly Rewards")
+            screen.getByRole("tab", {
+                name: "Monthly Rewards",
+            })
         ).toBeInTheDocument();
 
         expect(
-            screen.getByText("User Total Rewards")
-        ).toBeInTheDocument();
-
-        // Data
-        expect(
-            screen.getAllByText("John Smith").length
-        ).toBeGreaterThan(0);
-
-        expect(
-            screen.getByText("Laptop")
+            screen.getByRole("tab", {
+                name: "Total Rewards",
+            })
         ).toBeInTheDocument();
     });
 });

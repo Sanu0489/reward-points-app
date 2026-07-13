@@ -1,91 +1,53 @@
 import PropTypes from "prop-types";
 
 import { DataGrid } from "@mui/x-data-grid";
-import { Typography } from "@mui/material";
 
-import { formatDate } from "../../utils/formatDate";
+import { Box } from "@mui/material";
+
+import usePaginationModel from "../../hooks/usePaginationModel";
+
+import { TABLE_HEIGHTS } from "../../constants/tableHeights";
+
+import { transactionColumns } from "../../constants/tableColumns/transactionColumns";
 import { getDataGridStyles } from "../../styles/dataGridStyles";
 
-const tableColumns = [
-    {
-        field: "id",
-        headerName: "Transaction ID",
-        width: 150,
-        align: "center",
-        headerAlign: "center",
-    },
-    {
-        field: "customerName",
-        headerName: "Customer",
-        flex: 1,
-        minWidth: 180,
-    },
-    {
-        field: "product",
-        headerName: "Product",
-        flex: 1,
-        minWidth: 180,
-    },
-    {
-        field: "purchaseDate",
-        headerName: "Purchase Date",
-        flex: 1,
-        minWidth: 180,
-        valueFormatter: (value) => formatDate(value),
-    },
-    {
-        field: "amount",
-        headerName: "Amount ($)",
-        type: "number",
-        width: 150,
-        align: "right",
-        headerAlign: "right",
-        valueFormatter: (value) => `$${Number(value).toFixed(2)}`,
-    },
-    {
-        field: "rewardPoints",
-        headerName: "Reward Points",
-        type: "number",
-        width: 160,
-        align: "center",
-        headerAlign: "center",
-        renderCell: (params) => (
-            <Typography
-                sx={{
-                    width: "100%",
-                    textAlign: "center",
-                    fontWeight: 700,
-                    color:
-                        params.value >= 100
-                            ? "success.main"
-                            : "text.primary",
-                }}
-            >
-                {params.value}
-            </Typography>
-        ),
-    },
-];
+/**
+ * Displays customer transactions in a paginated Material UI DataGrid.
+ *
+ * Supports:
+ * - Client-side pagination
+ * - Automatic page reset when page size changes
+ * - Sorting and toolbar support
+ * - Fixed-height scrollable grid
+ *
+ * @param {Object} props - Component props.
+ * @param {Array<Object>} props.transactions - List of transactions to display.
+ * @returns {JSX.Element} Transaction table.
+ */
 
 const TransactionTable = ({ transactions }) => {
+    const {
+        paginationModel,
+        handlePaginationModelChange,
+    } = usePaginationModel(10);
+
     return (
+        <Box
+        sx={{
+            height: TABLE_HEIGHTS.TRANSACTIONS,
+            width: "100%",
+        }}
+    >
         <DataGrid
             rows={transactions}
-            columns={tableColumns}
+            columns={transactionColumns}
             getRowId={(row) => row.id}
+            paginationModel={paginationModel}
+            onPaginationModelChange={handlePaginationModelChange}
             pageSizeOptions={[5, 10, 20]}
-            initialState={{
-                pagination: {
-                    paginationModel: {
-                        pageSize: 10,
-                        page: 0,
-                    },
-                },
-            }}
             rowHeight={56}
             columnHeaderHeight={56}
             disableRowSelectionOnClick
-            autoHeight
             density="comfortable"
             disableColumnMenu
             disableColumnResize={false}
@@ -96,6 +58,7 @@ const TransactionTable = ({ transactions }) => {
                 "#EAF4FF"
             )}
         />
+    </Box>
     );
 };
 
@@ -103,7 +66,7 @@ TransactionTable.propTypes = {
     transactions: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
-            customerId: PropTypes.number.isRequired,
+            customerId: PropTypes.string.isRequired,
             customerName: PropTypes.string.isRequired,
             purchaseDate: PropTypes.string.isRequired,
             product: PropTypes.string.isRequired,

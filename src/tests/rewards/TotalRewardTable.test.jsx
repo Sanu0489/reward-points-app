@@ -5,17 +5,17 @@ import TotalRewardTable from "../../components/rewards/TotalRewardTable";
 
 describe("TotalRewardTable", () => {
     const mockTotalRewards = [
-        {
-            customerId: 101,
-            customerName: "John Smith",
-            rewardPoints: 120,
-        },
-        {
-            customerId: 102,
-            customerName: "Alice Johnson",
-            rewardPoints: 375,
-        },
-    ];
+    {
+        customerId: "C001",
+        customerName: "John Smith",
+        rewardPoints: 120,
+    },
+    {
+        customerId: "C002",
+        customerName: "Alice Johnson",
+        rewardPoints: 375,
+    },
+];
 
     it("should render the DataGrid", () => {
         render(

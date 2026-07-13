@@ -1,10 +1,9 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { calculateRewardPoints } from "../../utils/calculateRewardPoints";
 
 describe("calculateRewardPoints", () => {
-
-    it("should return 0 for amount less than 50", () => {
+    it("should return 0 for amount less than lower threshold", () => {
         expect(calculateRewardPoints(40)).toBe(0);
     });
 
@@ -41,15 +40,34 @@ describe("calculateRewardPoints", () => {
     });
 
     it("should return 0 for amount 0", () => {
-    expect(calculateRewardPoints(0)).toBe(0);
-});
+        expect(calculateRewardPoints(0)).toBe(0);
+    });
 
-it("should return 0 for negative amount", () => {
-    expect(calculateRewardPoints(-100)).toBe(0);
-});
+    it("should correctly calculate decimal amount", () => {
+        expect(calculateRewardPoints(120.75)).toBe(90);
+    });
 
-it("should correctly calculate decimal amount", () => {
-    expect(calculateRewardPoints(120.75)).toBe(90);
-});
+    it("should throw an error for negative amount", () => {
+        expect(() =>
+            calculateRewardPoints(-100)
+        ).toThrow("Invalid purchase amount.");
+    });
 
+    it("should throw an error for null amount", () => {
+        expect(() =>
+            calculateRewardPoints(null)
+        ).toThrow("Invalid purchase amount.");
+    });
+
+    it("should throw an error for undefined amount", () => {
+        expect(() =>
+            calculateRewardPoints(undefined)
+        ).toThrow("Invalid purchase amount.");
+    });
+
+    it("should throw an error for NaN amount", () => {
+        expect(() =>
+            calculateRewardPoints(Number.NaN)
+        ).toThrow("Invalid purchase amount.");
+    });
 });

@@ -1,101 +1,110 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import apiClient from "../../api/apiClient";
 import { getTransactions } from "../../api/transactionApi";
-import { API_ENDPOINTS } from "../../constants/apiConstants";
-
-// Mock apiClient
-vi.mock("../../api/apiClient", () => ({
-    default: {
-        get: vi.fn(),
-    },
-}));
 
 describe("transactionApi", () => {
     beforeEach(() => {
-        vi.clearAllMocks();
+        vi.restoreAllMocks();
     });
 
     const mockTransactions = [
         {
             id: 1,
-            customerId: 101,
-            customerName: "John Smith",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
             amount: 120,
-            rewardPoints: 90,
         },
         {
             id: 2,
-            customerId: 102,
-            customerName: "Alice Johnson",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
             amount: 150,
-            rewardPoints: 150,
         },
     ];
 
     it("should fetch all transactions successfully", async () => {
-        // Arrange
-        apiClient.get.mockResolvedValue({
-            data: mockTransactions,
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: true,
+            json: vi.fn().mockResolvedValue({
+                transactions: mockTransactions,
+            }),
         });
 
-        // Act
         const result = await getTransactions();
 
-        // Assert
-        expect(apiClient.get).toHaveBeenCalledTimes(1);
-
-        expect(apiClient.get).toHaveBeenCalledWith(
-            API_ENDPOINTS.TRANSACTIONS
-        );
+        expect(globalThis.fetch).toHaveBeenCalledTimes(1);
+        expect(globalThis.fetch).toHaveBeenCalledWith("/db.json", {
+            signal: undefined,
+        });
 
         expect(result).toEqual(mockTransactions);
     });
 
-    it("should return an empty array when API returns no transactions", async () => {
-        // Arrange
-        apiClient.get.mockResolvedValue({
-            data: [],
+    it("should return an empty array when no transactions exist", async () => {
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: true,
+            json: vi.fn().mockResolvedValue({
+                transactions: [],
+            }),
         });
 
-        // Act
         const result = await getTransactions();
 
-        // Assert
         expect(result).toEqual([]);
     });
 
-    it("should throw an error when API request fails", async () => {
-        // Arrange
-        const error = new Error("Network Error");
+    it("should throw an error when fetch fails", async () => {
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: false,
+        });
 
-        apiClient.get.mockRejectedValue(error);
-
-        // Act + Assert
         await expect(getTransactions()).rejects.toThrow(
-            "Network Error"
+            "Failed to fetch transactions."
         );
     });
 
-    it("should call the correct API endpoint", async () => {
-        apiClient.get.mockResolvedValue({
-            data: mockTransactions,
+    it("should throw an error for an invalid response", async () => {
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: true,
+            json: vi.fn().mockResolvedValue({
+                data: [],
+            }),
         });
 
-        await getTransactions();
-
-        expect(apiClient.get).toHaveBeenCalledWith(
-            API_ENDPOINTS.TRANSACTIONS
+        await expect(getTransactions()).rejects.toThrow(
+            "Invalid transactions response."
         );
     });
 
-    it("should call API only once", async () => {
-        apiClient.get.mockResolvedValue({
-            data: mockTransactions,
+    it("should pass AbortSignal to fetch", async () => {
+        const controller = new AbortController();
+
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: true,
+            json: vi.fn().mockResolvedValue({
+                transactions: mockTransactions,
+            }),
         });
 
-        await getTransactions();
+        await getTransactions(controller.signal);
 
-        expect(apiClient.get).toHaveBeenCalledTimes(1);
+        expect(globalThis.fetch).toHaveBeenCalledWith("/db.json", {
+            signal: controller.signal,
+        });
+    });
+
+    it("should throw when transactions is not an array", async () => {
+        vi.spyOn(globalThis, "fetch").mockResolvedValue({
+            ok: true,
+            json: vi.fn().mockResolvedValue({
+                transactions: null,
+            }),
+        });
+
+        await expect(getTransactions()).rejects.toThrow(
+            "Invalid transactions response."
+        );
     });
 });

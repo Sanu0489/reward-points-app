@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { getMonthlyRewardSummary } from "../../utils/monthlyRewardUtils";
 
@@ -6,41 +6,46 @@ describe("getMonthlyRewardSummary", () => {
     const mockTransactions = [
         {
             id: 1,
-            customerId: 101,
-            customerName: "John Smith",
-            purchaseDate: "2024-01-05",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
+            purchaseDate: "2026-06-05",
             amount: 120,
             rewardPoints: 90,
         },
         {
             id: 2,
-            customerId: 101,
-            customerName: "John Smith",
-            purchaseDate: "2024-01-18",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
+            purchaseDate: "2026-06-18",
             amount: 45,
             rewardPoints: 0,
         },
         {
             id: 3,
-            customerId: 101,
-            customerName: "John Smith",
-            purchaseDate: "2024-02-02",
+            customerId: "C001",
+            firstName: "John",
+            lastName: "Smith",
+            purchaseDate: "2026-05-02",
             amount: 80,
             rewardPoints: 30,
         },
         {
             id: 4,
-            customerId: 102,
-            customerName: "Alice Johnson",
-            purchaseDate: "2024-01-10",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
+            purchaseDate: "2026-06-10",
             amount: 150,
             rewardPoints: 150,
         },
         {
             id: 5,
-            customerId: 102,
-            customerName: "Alice Johnson",
-            purchaseDate: "2024-01-20",
+            customerId: "C002",
+            firstName: "Alice",
+            lastName: "Johnson",
+            purchaseDate: "2026-06-20",
             amount: 175,
             rewardPoints: 225,
         },
@@ -59,45 +64,43 @@ describe("getMonthlyRewardSummary", () => {
     it("should calculate monthly reward points correctly", () => {
         const result = getMonthlyRewardSummary(mockTransactions);
 
-        const johnJan = result.find(
+        const johnJune = result.find(
             (item) =>
-                item.customerId === 101 &&
-                item.month === "Jan"
+                item.customerId === "C001" &&
+                item.monthKey === "2026-06"
         );
 
-        expect(johnJan.rewardPoints).toBe(90);
+        expect(johnJune.rewardPoints).toBe(90);
     });
 
     it("should calculate monthly purchase amount correctly", () => {
         const result = getMonthlyRewardSummary(mockTransactions);
 
-        const johnJan = result.find(
+        const johnJune = result.find(
             (item) =>
-                item.customerId === 101 &&
-                item.month === "Jan"
+                item.customerId === "C001" &&
+                item.monthKey === "2026-06"
         );
 
-        expect(johnJan.totalAmount).toBe(165);
+        expect(johnJune.totalAmount).toBe(165);
     });
 
     it("should calculate total transactions correctly", () => {
         const result = getMonthlyRewardSummary(mockTransactions);
 
-        const johnJan = result.find(
+        const johnJune = result.find(
             (item) =>
-                item.customerId === 101 &&
-                item.month === "Jan"
+                item.customerId === "C001" &&
+                item.monthKey === "2026-06"
         );
 
-        expect(johnJan.totalTransactions).toBe(2);
+        expect(johnJune.totalTransactions).toBe(2);
     });
 
-    it("should include month and year", () => {
+    it("should include monthKey", () => {
         const result = getMonthlyRewardSummary(mockTransactions);
 
-        expect(result[0]).toHaveProperty("month");
-        expect(result[0]).toHaveProperty("year");
-        expect(result[0]).toHaveProperty("monthYear");
+        expect(result[0]).toHaveProperty("monthKey");
     });
 
     it("should sort by customer name", () => {
@@ -111,7 +114,7 @@ describe("getMonthlyRewardSummary", () => {
         const result = getMonthlyRewardSummary(mockTransactions);
 
         expect(result[0]).toMatchObject({
-            customerId: expect.any(Number),
+            customerId: expect.any(String),
             customerName: expect.any(String),
         });
     });

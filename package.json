@@ -5,14 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "json-server --watch db.json --port 3001",
-    "start": "concurrently \"npm run server\" \"npm run dev\"",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "generate-data": "node scripts/generateMockData.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -20,13 +19,11 @@
     "@mui/icons-material": "^9.2.0",
     "@mui/material": "^9.2.0",
     "@mui/x-data-grid": "^9.8.0",
-    "axios": "^1.18.1",
-    "concurrently": "^9.2.3",
     "dayjs": "^1.11.21",
-    "json-server": "^0.17.4",
     "prop-types": "^15.8.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-error-boundary": "^6.1.2",
     "react-hook-form": "^7.81.0"
   },
   "devDependencies": {

@@ -1,5 +1,10 @@
 import { Typography } from "@mui/material";
 
+/**
+ * Renders the dashboard title.
+ *
+ * @returns {JSX.Element} Dashboard header component.
+ */
 const DashboardHeader = () => {
     return (
         <Typography
