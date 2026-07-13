@@ -208,11 +208,11 @@ npm run test -- --coverage
 
 ### Test Coverage 
 
-
+![alt text](Test-Coverage.png)
 
 ### Dashboard
 
-![alt text](image-3.png)
+![alt text](Dashboard.png)
 
 ### Transactions
 
@@ -220,19 +220,19 @@ npm run test -- --coverage
 
 ### Monthly Rewards
 
-![alt text](image-6.png)
+![alt text](Monthly Rewrds Table.png)
 
 ### Total Rewards
 
-![alt text](image-7.png)
+![alt text](Total Rewards Table.png)
 
 ### Error Screen 
 
-![alt text](image-8.png)
+![alt text](Error State.png)
 
 ### Empty State
 
-![alt text](image-9.png)
+![alt text](Empty State.png)
 
 ---
 
