@@ -235,6 +235,51 @@ npm run test -- --coverage
 
 ![Test Coverage](./screenshots/test-coverage-report.png)
 
+----------------------------|---------|----------|---------|---------|-------------------
+File                        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------------|---------|----------|---------|---------|-------------------
+All files                   |   98.15 |    92.59 |   94.54 |   98.06 |                   
+ api                        |     100 |      100 |     100 |     100 |                   
+  transactionApi.jsx        |     100 |      100 |     100 |     100 |                   
+ components/common          |     100 |      100 |     100 |     100 |                   
+  EmptyState.jsx            |     100 |      100 |     100 |     100 |                   
+  ErrorFallback.jsx         |     100 |      100 |     100 |     100 |                   
+  ErrorMessage.jsx          |     100 |      100 |     100 |     100 |                   
+  Loader.jsx                |     100 |      100 |     100 |     100 |                   
+ components/dashboard       |     100 |      100 |     100 |     100 |                   
+  DashboardCards.jsx        |     100 |      100 |     100 |     100 |                   
+  DashboardHeader.jsx       |     100 |      100 |     100 |     100 |                   
+  SummaryCard.jsx           |     100 |      100 |     100 |     100 |                   
+ components/rewards         |     100 |      100 |     100 |     100 |                   
+  MonthlyRewardTable.jsx    |     100 |      100 |     100 |     100 |                   
+  TotalRewardTable.jsx      |     100 |      100 |     100 |     100 |                   
+ components/transactions    |     100 |      100 |     100 |     100 |                   
+  TransactionTable.jsx      |     100 |      100 |     100 |     100 |                   
+ constants                  |     100 |      100 |     100 |     100 |                   
+  rewardConstants.jsx       |     100 |      100 |     100 |     100 |                   
+  tableHeights.jsx          |     100 |      100 |     100 |     100 |                   
+ constants/tableColumns     |     100 |    83.33 |     100 |     100 |                   
+  monthlyRewardColumns.jsx  |     100 |      100 |     100 |     100 |                   
+  totalRewardColumns.jsx    |     100 |       50 |     100 |     100 | 30                
+  transactionColumns.jsx    |     100 |      100 |     100 |     100 |                   
+ hooks                      |     100 |    83.33 |     100 |     100 |                   
+  usePaginationModel.jsx    |     100 |      100 |     100 |     100 |                   
+  useRewardDashboard.jsx    |     100 |      100 |     100 |     100 |                   
+  useTransactions.jsx       |     100 |       75 |     100 |     100 | 36                
+ pages                      |   83.33 |    85.71 |      40 |   83.33 |                   
+  Dashboard.jsx             |   83.33 |    85.71 |      40 |   83.33 | 20,24,63          
+ styles                     |     100 |      100 |     100 |     100 |                   
+  dataGridStyles.jsx        |     100 |      100 |     100 |     100 |                   
+ utils                      |     100 |      100 |     100 |     100 |                   
+  calculateRewardPoints.jsx |     100 |      100 |     100 |     100 |                   
+  dashboardUtils.jsx        |     100 |      100 |     100 |     100 |                   
+  formatDate.jsx            |     100 |      100 |     100 |     100 |                   
+  monthlyRewardUtils.jsx    |     100 |      100 |     100 |     100 |                   
+  totalRewardUtils.jsx      |     100 |      100 |     100 |     100 |                   
+  transactionUtils.jsx      |     100 |      100 |     100 |     100 |                   
+----------------------------|---------|----------|---------|---------|-------------------
+ PASS  
+
 ---
 
 ## Future Improvements
