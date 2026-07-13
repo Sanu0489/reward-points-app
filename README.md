@@ -204,35 +204,32 @@ npm run test -- --coverage
 
 ---
 
+
 ## Screenshots
-
-### Test Coverage 
-
-
 
 ### Dashboard
 
-![alt text](image-3.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### Transactions
 
-![alt text](image-5.png)
+![Transactions](./screenshots/transactions-tab.png)
 
 ### Monthly Rewards
 
-![alt text](image-6.png)
+![Monthly Rewards](./screenshots/monthly-rewards.png)
 
 ### Total Rewards
 
-![alt text](image-7.png)
+![Total Rewards](./screenshots/total-rewards.png)
 
-### Error Screen 
+### Error State
 
-![alt text](image-8.png)
+![Error State](./screenshots/error-state.png)
 
-### Empty State
+### Test Coverage
 
-![alt text](image-9.png)
+![Test Coverage](./screenshots/test-coverage.png)
 
 ---
 
