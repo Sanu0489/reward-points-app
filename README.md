@@ -226,6 +226,14 @@ npm run test -- --coverage
 
 ![alt text](image-7.png)
 
+### Error Screen 
+
+![alt text](image-8.png)
+
+### Empty State
+
+![alt text](image-9.png)
+
 ---
 
 ## Future Improvements
