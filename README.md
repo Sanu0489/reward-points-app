@@ -209,7 +209,7 @@ npm run test -- --coverage
 
 ### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/reward-dashboard.png)
 
 ### Transactions
 
@@ -233,7 +233,7 @@ npm run test -- --coverage
 
 ### Test Coverage
 
-![Test Coverage](./screenshots/test-coverage.png)
+![Test Coverage](./screenshots/test-coverage-report.png)
 
 ---
 
