@@ -227,6 +227,10 @@ npm run test -- --coverage
 
 ![Error State](./screenshots/error-state.png)
 
+### Empty State
+
+![Empty State](./screenshots/empty-state.png)
+
 ### Test Coverage
 
 ![Test Coverage](./screenshots/test-coverage.png)
